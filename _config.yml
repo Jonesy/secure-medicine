@@ -11,8 +11,8 @@ collections:
 email: joshua@general-metrics.com
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
-baseurl: ''
-url: http://yourdomain.com
+baseurl: 
+url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
 markdown: kramdown
