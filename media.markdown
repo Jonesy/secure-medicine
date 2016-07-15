@@ -2,7 +2,7 @@
 title: Media
 date: 2016-07-15 21:08:00 Z
 permalink: "/media/"
-position: 3
+position: 2
 layout: page
 ---
 
