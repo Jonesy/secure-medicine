@@ -1,5 +1,4 @@
 ---
-gems: [bootstrap]
 title: Secure Medicine
 timezone: UTC
 collections:
@@ -9,10 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+gems:
+- bootstrap
 email: joshua@general-metrics.com
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
-baseurl:
+baseurl: 
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
