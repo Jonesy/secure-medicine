@@ -42,7 +42,7 @@ description:
 
   **Registration Information**
   The early bird rate will be available until **April 15, 2016**. An email invitation will be sent when registration is open (3/23). Please note that invitations are not transferable. If you would like to nominate a colleague at your organization or another, please send their contact information to archimedes@umich.edu and include a reason why he/she would be a good participant at this collegial event.
-layout: page
+layout: event
 ---
 
 The 4th Annual Archimedes Workshop on Medical Device Security will take place May 15–17, 2016 at the University of Michigan in Ann Arbor. This invitation-only event brings together solution-oriented experts in medical device manufacturing and computer security to meet and discuss effective ways to improve information security and the new FDA guidance on cybersecurity.
