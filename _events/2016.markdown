@@ -1,7 +1,11 @@
 ---
-title: '2016'
+title: 'May 15-17, 2016: Archimedes Workshop in Ann Arbor, MI'
 date: 2016-07-21 17:35:00 Z
 Field name: 
 ---
 
-This is the 2016 events.
+The 4th Annual Archimedes Workshop on Medical Device Security will take place May 15–17, 2016 at the University of Michigan in Ann Arbor. This invitation-only event brings together solution-oriented experts in medical device manufacturing and computer security to meet and discuss effective ways to improve information security and the new FDA guidance on cybersecurity.
+
+This year, the agenda includes remarks by health delivery organization CISOs, product security officers from medical device manufacturers, the White House, FDA, another three letter agency, forensics experts, hardware security experts, international partners, and speakers who have chosen to remain anonymous. We will also tour the new MCity vehicle test facility because what could possibly go wrong with a bunch of medical device security experts touring a fleet of connected and automated vehicles?
+
+The event is NOT open to the media, and all discussion will be considered off the record unless a speaker expressly gives permission to share. The primary goals are to: (1) introduce experts to each other to solve common problems, and (2) provide engineers with knowledge and anecdotes that help with internal processes to convince executive management on the ROI of improved medical device security.
