@@ -2,7 +2,6 @@
 ---
 
 @charset "utf-8";
-@import 'bootstrap';
 
 
 
@@ -15,9 +14,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$brand-primary: #be1414;
+$body-bg: #d0e4eb;
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-secondary-color: #4296b2;
+$dark-blue:        #0e5c73;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -25,6 +26,9 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
+
+// Nav overrides
+$nav-pills-border-radius: 0;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -48,7 +52,6 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "bootstrap",
         "base",
-        "layout",
-        "syntax-highlighting"
-;
+        "layout";
