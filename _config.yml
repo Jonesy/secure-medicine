@@ -14,13 +14,13 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
   scope:
     path: "events"
     type: "events"
   values:
     start_date: 2016-07-21 09:30:00 Z
     end_date: 2016-07-21 09:30:00 Z
+    layout: "event"
 gems:
 - bootstrap
 email: joshua@general-metrics.com
