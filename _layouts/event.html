@@ -12,9 +12,11 @@ layout: default
     <dl>
       <dt>Start date</dt>
       <dd>
+        {{ page.start_date | date: "%b %-d, %Y" }}
       </dd>
       <dt>End date</dt>
       <dd>
+        {{ page.end_date | date: "%b %-d, %Y" }}
       </dd>
     </dl>
 
