@@ -2,7 +2,6 @@
 title: About
 permalink: "/about/"
 position: 0
-Page Type: about
 layout: page
 ---
 
