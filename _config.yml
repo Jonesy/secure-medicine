@@ -5,6 +5,7 @@ collections:
   events:
     title: Events
     output: true
+    Start date: 2016-08-02 00:00:00.000000000 Z
   posts:
     title: Posts
     output: true
