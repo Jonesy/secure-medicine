@@ -23,6 +23,7 @@ defaults:
       path: "events"
       type: "events"
     values:
+      colors: ["red", "green", "blue"]
       layout: "event"
   -
     scope:
