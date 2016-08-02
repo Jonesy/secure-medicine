@@ -5,7 +5,8 @@ collections:
   events:
     title: Events
     output: true
-    layout: event
+    values:
+      layout: event
   posts:
     title: Posts
     output: true
