@@ -1,0 +1,18 @@
+.Banner {
+  position: relative;
+}
+
+.Banner-panel {
+  padding: 20px;
+  position: absolute;
+  background-color: rgba(white, 0.5);
+
+  &.Banner-panel--events {
+    min-height: 200px;
+    top: 60px;
+  }
+
+  &.Banner-panel--page {
+    bottom: 0;
+  }
+}

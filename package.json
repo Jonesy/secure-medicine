@@ -1,0 +1,19 @@
+{
+  "name": "secure-medicine",
+  "version": "0.0.1",
+  "description": "A JavaScript package for Secure Medicine web properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonesy/secure-medicine.git"
+  },
+  "author": "Joshua R. Jones [ General Metrics Communications Ltd.]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonesy/secure-medicine/issues"
+  },
+  "homepage": "https://github.com/Jonesy/secure-medicine#readme"
+}
