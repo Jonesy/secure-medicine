@@ -1,6 +1,6 @@
 ---
 title: 'May 15-17, 2016: Archimedes Workshop in Ann Arbor, MI'
-date: 2016-07-21 17:35:00 Z
+date: 2016-07-21 09:30:00 Z
 description:
 - |-
   ## Schedule
