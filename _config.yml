@@ -18,7 +18,7 @@ defaults:
       path: "events"
       type: events
     values:
-      layout: event
+      layout: "event"
 gems:
 - bootstrap
 email: joshua@general-metrics.com
