@@ -19,21 +19,21 @@ collections:
     output: true
 defaults:
 - scope:
-    path: events
-    type: events
+    path: "events"
+    type: "events"
   values:
-    layout: event
+    layout: "event"
 - scope:
-    path: publications
-    type: publication
+    path: "publications"
+    type: "publication"
   values:
-    layout: event
+    layout: "event"
 gems:
 - bootstrap
 email: joshua@general-metrics.com
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
-baseurl: 
+baseurl:
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
