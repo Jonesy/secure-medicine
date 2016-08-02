@@ -16,6 +16,7 @@ collections:
 defaults:
   scope:
     type: "events"
+    path: "events"
   values:
     start_date: "2016-07-21 09:30:00 Z"
     end_date: "2016-07-21 09:30:00 Z"
