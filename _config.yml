@@ -18,16 +18,18 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: "events"
-    type: "events"
-  values:
-    layout: "event"
-- scope:
-    path: "publications"
-    type: "publication"
-  values:
-    layout: "event"
+  -
+    scope:
+      path: "events"
+      type: "events"
+    values:
+      layout: "event"
+  -
+    scope:
+      path: "publications"
+      type: "publication"
+    values:
+      layout: "event"
 gems:
 - bootstrap
 email: joshua@general-metrics.com
