@@ -18,7 +18,7 @@ $brand-primary: #be1414;
 $body-bg: #d0e4eb;
 $text-color:       #111;
 $brand-secondary-color: #4296b2;
-$dark-blue:        #0e5c73;
+$dark-blue-color:        #0e5c73;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -54,4 +54,5 @@ $on-laptop:        800px;
 @import
         "bootstrap",
         "base",
-        "layout";
+        "layout",
+        "footer";

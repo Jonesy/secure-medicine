@@ -1,0 +1,15 @@
+.Footer {
+  padding: 60px 0;
+  color: #fff;
+  background-color: $dark-blue-color;
+
+  a {
+    color: $brand-secondary-color;
+  }
+}
+
+.Footer-title {
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+}

@@ -2,7 +2,7 @@
 
   <div class="row">
 
-    <div class="col-sm-3 col-sm-offset-1">
+    <div class="col-sm-2 col-sm-offset-1">
       <a class="Header-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
@@ -15,7 +15,7 @@
         </svg>
       </a>
 
-      <ul class="nav nav-pills pull-xs-right Header-nav">
+      <ul class="nav nav-pills pull-xs-right col-sm-push-1 Header-nav">
         {% assign pages = site.pages | sort: 'position' %}
         {% for site_page in pages %}
           <li class="nav-item">
@@ -36,5 +36,5 @@
 </header>
 
 <div class="Banner">
-  <img src="http://placehold.it/1170x510">
+  <img src="http://placehold.it/1170x510" class="img-fluid">
 </div>
