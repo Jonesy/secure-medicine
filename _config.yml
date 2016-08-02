@@ -6,8 +6,8 @@ collections:
     title: Events
     output: true
     values:
-      start_date: 2016-07-21 09:30:00 Z
-      end_date: 2016-07-21 09:30:00 Z
+      start_date: 2016-07-21 09:30:00.000000000 Z
+      end_date: 2016-07-21 09:30:00.000000000 Z
     start_date: 2016-08-02 00:00:00.000000000 Z
     end_date: 2016-08-02 00:00:00.000000000 Z
   posts:
@@ -21,7 +21,7 @@ gems:
 email: joshua@general-metrics.com
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
-baseurl:
+baseurl: 
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
