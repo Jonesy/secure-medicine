@@ -10,7 +10,7 @@ collections:
   posts:
     title: Posts
     output: true
-  publication:
+  publications:
     title: Publication
     output: true
   uploads:
