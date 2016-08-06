@@ -13,7 +13,6 @@ collections:
   publication:
     title: Publication
     output: true
-    permalink: publications
   uploads:
     title: Uploads
     output: true
