@@ -8,10 +8,15 @@
       {% include header.html %}
       {% include banner.html url=page.url %}
 
-      <div class="container">
-        {{ content }}
+      <div class="Content">
+        <div class="container-fluid">
+          {% if page.url == '/' %}
+            {% include home.html %}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
       </div>
-
       {% include footer.html %}
     </div>
   </body>

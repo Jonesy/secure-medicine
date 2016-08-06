@@ -1,5 +1,8 @@
 .Footer {
-  padding: 60px 0;
+  padding: {
+    top: 60px;
+    bottom: 60px;
+  };
   color: #fff;
   background-color: $dark-blue-color;
 

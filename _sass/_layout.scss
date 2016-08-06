@@ -13,7 +13,10 @@
 }
 
 .Header {
-  padding: 26px 0;
+  padding: {
+    top: 26px;
+    bottom: 26px;
+  }
 }
 
 .Header-logo {
