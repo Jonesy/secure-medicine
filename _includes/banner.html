@@ -27,11 +27,13 @@
     </div>
   {% else %}
     {% assign banner_height = 255 %}
-    <div class="Banner-panel Banner-panel--page col-md-5 col-md-offset-1">
-      <h1 class="Banner-panel-title">
-        {{page.banner_text}}
-      </h1>
-    </div>
+    {% if page.banner_text %}
+      <div class="Banner-panel Banner-panel--page col-md-5 col-md-offset-1">
+        <h1 class="Banner-panel-title">
+          {{page.banner_text}}
+        </h1>
+      </div>
+    {% endif %}
   {% endif %}
   <img src="http://placehold.it/1170x{{banner_height}}" class="img-fluid">
 </div>

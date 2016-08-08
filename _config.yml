@@ -19,7 +19,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: page
+    type: pages
   values:
     banner_text: Add a banner title
     layout: page
@@ -40,7 +40,7 @@ gems:
 email: joshua@general-metrics.com
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
-baseurl: 
+baseurl:
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
