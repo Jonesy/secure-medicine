@@ -2,6 +2,21 @@
 title: About
 permalink: "/about/"
 position: 0
+banner_text: We're improving medical device security through research and education.
+Field name:
+- title: Who We Are
+  description: Lorem ipsum
+  image: 
+- title: Meet the Director
+  description: |-
+    ## Professor Kevin Fu
+
+    ### University of Michigan
+
+    lorem ipsum
+  image: 
+- team
+- members
 layout: page
 ---
 
