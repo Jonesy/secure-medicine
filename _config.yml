@@ -19,6 +19,12 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: 'page'
+  values:
+    banner_text: 'Add a banner title'
+    layout: page
+- scope:
+    path: ''
     type: events
   values:
     start_date: 2016-09-01 21:45:00.000000000 Z

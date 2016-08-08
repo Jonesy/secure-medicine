@@ -4,7 +4,7 @@
       <div class="Callout-title">
         Did you know?
       </div>
-      <div class="Callout-body">
+      <div class="Callout-body Callout-body--image">
         <img src="http://placehold.it/310x170" class="img-fluid Callout-img">
       </div>
     </div>
@@ -15,7 +15,11 @@
         Popular Publications
       </div>
       <div class="Callout-body">
-        Yadda
+        {% for publication in site.publications | sample:3 %}
+          <div>
+            {{publication.title}} <a href="{{publication.url}}">Read More</a>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>

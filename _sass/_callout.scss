@@ -4,12 +4,12 @@
 
 .Callout-title,
 .Callout-body {
+  padding: 8px 20px;
   background-color: $body-bg;
 }
 
 .Callout-title {
   margin-bottom: 1px;
-  padding: 8px 20px;
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
@@ -17,7 +17,10 @@
   color: $brand-primary;
 }
 
-.Callout-img {
-  position: relative;
-  margin-top: -1px;
+.Callout-body {
+  &.Callout-body--image {
+    padding: 0;
+    position: relative;
+    margin-top: -1px;
+  }
 }

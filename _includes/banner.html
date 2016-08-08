@@ -1,20 +1,37 @@
 <div class="Banner">
   {% if include.url == '/' %}
+    {% assign banner_height = 510 %}
     <div class="col-md-5 col-md-pull-1 Banner-panel Banner-panel--events">
-      <h2>Upcoming Events</h2>
-      <h1 class="Banner-panel-title">
-        Title
-      </h1>
-      <a href="#" class="btn btn-primary">
-        Read More
-      </a>
+      <h2>Upcoming Event</h2>
+
+      {% capture now_unix %}{{'now' | date:"%s" | plus:0}}{% endcapture %}
+      {% assign all_events = site.events | sort:"start_date" %}
+
+      {% for event in all_events %}
+        {% assign now_unix = now_unix | plus:0 %}
+        {% capture event_start %}
+          {{event.start_date | date:"%s"}}
+        {% endcapture %}
+        {% assign event_start = event_start | plus:0 %}
+        {% if event_start < now_unix  %}
+          {% continue %}
+        {% else %}
+
+          <h1 class="Banner-panel-title">{{event.title}}</h1>
+          <a href="{{event.url}}" class="btn btn-primary">
+            Read More
+          </a>
+          {% break %}
+        {% endif %}
+      {% endfor %}
     </div>
   {% else %}
+    {% assign banner_height = 255 %}
     <div class="Banner-panel Banner-panel--page col-md-5 col-md-offset-1">
       <h1 class="Banner-panel-title">
-        We're improving medical device security through research and education.
+        {{page.banner_text}}
       </h1>
     </div>
   {% endif %}
-  <img src="http://placehold.it/1170x510" class="img-fluid">
+  <img src="http://placehold.it/1170x{{banner_height}}" class="img-fluid">
 </div>
