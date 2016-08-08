@@ -7,6 +7,9 @@ collections:
     output: true
     values:
       layout: event
+  members:
+    title: Members
+    output: true
   posts:
     title: Posts
     output: true
