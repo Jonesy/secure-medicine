@@ -15,6 +15,8 @@ Field name:
 
     lorem ipsum
   image: 
+- team
+- members
 layout: page
 ---
 
