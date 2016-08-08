@@ -13,6 +13,9 @@ collections:
   publications:
     title: Publications
     output: true
+  team:
+    title: Team
+    output: true
   uploads:
     title: Uploads
     output: true
