@@ -21,10 +21,11 @@
 
 .Header-logo {
   width: 250px;
-  height: 66px;
+  height: 0px !important;
+  padding-top: 68px;
   display: inline-block;
   overflow: hidden;
-  background-color: $brand-primary;
+  background: url('/images/logo.gif') no-repeat;
 }
 
 .Header-nav {
