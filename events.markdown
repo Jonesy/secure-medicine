@@ -1,7 +1,7 @@
 ---
 title: Events
 date: 2016-07-15 21:06:00 Z
-permalink: "/events/2016"
+permalink: "/events"
 position: 2
 layout: page
 ---
