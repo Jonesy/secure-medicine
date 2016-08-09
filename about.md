@@ -6,7 +6,7 @@ banner_text: We're improving medical device security through research and educat
 sections:
 - title: Who We Are
   description: Lorem ipsum
-  image: 
+  image:
 - title: Meet the Director
   description: |-
     ## Professor Kevin Fu
@@ -14,10 +14,8 @@ sections:
     ### University of Michigan
 
     lorem ipsum
-  image: 
-- team
-- members
-layout: page
+  image:
+layout: about
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)

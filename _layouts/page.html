@@ -12,4 +12,12 @@ layout: default
     {{ content }}
   </div>
 
+  {% for section in page.sections %}
+    <div>
+      <h4>{{section.title}}</h4>
+      <div>
+        {{section.description | markdownify}}
+      </div>
+    </div>
+  {% endfor %}
 </article>

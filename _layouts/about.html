@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article>
+
+  {% for section in page.sections %}
+    <section>
+      <h3>
+        {{section.title}}
+      </h3>
+      {{section.description | markdownify}}
+    </section>
+  {% endfor %}
+
+  <hr/>
+  <section id="team">
+    <h2>Meet the Team</h2>
+    {% for bio in site.team %}
+      <h4>{{bio.title}}</h4>
+      <h6>{{bio.job_title}}</h6>
+      {{bio.content | markdownify}}
+    {% endfor %}
+  </section>
+  <hr/>
+  <section id="members">
+    <h2>Meet the Members</h2>
+    {% for member in site.members %}
+      <div>
+        <h4>{{member.title}}</h4>
+        {{member.content | markdownify}}
+        <p><a href="{{member.website}}">{{member.website}}</a></p>
+      </div>
+    {% endfor %}
+  </section>
+</article>
+
