@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<article class="container-fluid">
+<article class="container-fluid About">
 
   {% for section in page.sections %}
-    <section class="row">
+    <section class="row About-section">
       <header class="col-sm-10 col-md-offset-1">
         <h3>
           {{section.title}}
@@ -19,21 +19,33 @@ layout: default
     </section>
   {% endfor %}
 
-  <hr/>
-  <section id="team">
-    <h2>Meet the Team</h2>
+  <section id="team" class="row About-section">
+    <header class="col-sm-10 col-md-offset-1">
+      <h3>
+        Meet the Team
+      </h3>
+    </header>
+
     {% for bio in site.team %}
-      <h4>{{bio.title}}</h4>
-      <h6>{{bio.job_title}}</h6>
-      {{bio.content | markdownify}}
-      {% include social.html social=bio.social %}
+      <div class="col-sm-3 {% if forloop.first %}col-md-offset-1{% endif %}">
+        <img src="http://placehold.it/230x148" class="img-fluid">
+        <h4>{{bio.title}}</h4>
+        <h6>{{bio.job_title}}</h6>
+        {{bio.content | markdownify}}
+        {% include social.html social=bio.social %}
+      </div>
     {% endfor %}
   </section>
-  <hr/>
-  <section id="members">
-    <h2>Meet the Members</h2>
+
+  <section id="members" class="row About-section">
+    <header class="col-sm-10 col-md-offset-1">
+      <h3>
+        Meet the Members
+      </h3>
+    </header>
     {% for member in site.members %}
-      <div>
+      <div class="col-sm-3 {% if forloop.first %}col-md-offset-1{% endif %}">
+        <img src="http://placehold.it/230x148" class="img-fluid">
         <h4>{{member.title}}</h4>
         {{member.content | markdownify}}
         <p><a href="{{member.website}}">{{member.website}}</a></p>

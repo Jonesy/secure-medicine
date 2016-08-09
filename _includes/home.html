@@ -1,35 +1,37 @@
-<div class="row Home-content">
-  <div class="col-md-3 col-md-offset-1">
-    <div class="Callout">
-      <div class="Callout-title">
-        Did you know?
-      </div>
-      <div class="Callout-body Callout-body--image">
-        <img src="http://placehold.it/310x170" class="img-fluid Callout-img">
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3">
-    <div class="Callout">
-      <div class="Callout-title">
-        Popular Publications
-      </div>
-      <div class="Callout-body">
-        {% for publication in site.publications | sample:3 %}
-          <div>
-            {{publication.title}} <a href="{{publication.url}}">Read More</a>
-          </div>
-        {% endfor %}
+<div class="container-fluid Home-content">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="Callout">
+        <div class="Callout-title">
+          Did you know?
+        </div>
+        <div class="Callout-body Callout-body--image">
+          <img src="http://placehold.it/620x340" class="img-fluid Callout-img">
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-3">
-    <div class="Callout">
-      <div class="Callout-title">
-        Newsletter Sign-Up
+    <div class="col-md-4">
+      <div class="Callout">
+        <div class="Callout-title">
+          Popular Publications
+        </div>
+        <div class="Callout-body">
+          {% for publication in site.publications | sample:3 %}
+            <div>
+              {{publication.title}} <a href="{{publication.url}}">Read More</a>
+            </div>
+          {% endfor %}
+        </div>
       </div>
-      <div class="Callout-body">
-        Yadda
+    </div>
+    <div class="col-md-4">
+      <div class="Callout">
+        <div class="Callout-title">
+          Newsletter Sign-Up
+        </div>
+        <div class="Callout-body">
+          Yadda
+        </div>
       </div>
     </div>
   </div>
