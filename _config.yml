@@ -43,7 +43,7 @@ defaults:
     layout: event
 gems:
 - bootstrap
-email: joshua@general-metrics.com
+email: info@secure-medicine.org
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
 baseurl: 
@@ -53,3 +53,6 @@ github_username: Jonesy
 markdown: kramdown
 kramdown:
   input: GFM
+twitter: https://twitter.com/ARC_MedSec
+linkedin: 
+youtube: 
