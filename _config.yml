@@ -50,9 +50,8 @@ baseurl:
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
-twitter: https://twitter.com/ARC_MedSec
-linkedin: 
-youtube: 
+linkedin_username: 
+youtube_channel: https://www.youtube.com/user/michiganengineering
 markdown: kramdown
 kramdown:
   input: GFM
