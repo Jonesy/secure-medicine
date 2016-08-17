@@ -2,14 +2,19 @@
   position: relative;
 }
 
+.Banner-img {
+}
+
 .Banner-panel {
   padding: 20px;
   position: absolute;
+  z-index: 9;
   background-color: rgba(white, 0.5);
 
   &.Banner-panel--events {
     min-height: 200px;
-    top: 60px;
+    top: 20px;
+    right: 36px;
   }
 
   &.Banner-panel--page {

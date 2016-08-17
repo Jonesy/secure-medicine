@@ -3,12 +3,19 @@
     top: 60px;
     bottom: 60px;
   };
+  text-align: center;
   color: #fff;
-  background-color: $dark-blue-color;
+  background-color: $text-color;
 
   a {
-    color: $brand-secondary-color;
+    color: rgba(white, 0.5);
   }
+}
+
+.Footer-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: left;
 }
 
 .Footer-title {

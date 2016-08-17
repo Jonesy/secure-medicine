@@ -2,7 +2,7 @@
   <div class="row">
     {% if include.url == '/' %}
       {% assign banner_height = 510 %}
-      <div class="col-md-5 col-md-pull-1 Banner-panel Banner-panel--events">
+      <div class="col-md-6 col-md-offset-6 Banner-panel Banner-panel--events">
         <h2>Upcoming Event</h2>
 
         {% capture now_unix %}{{'now' | date:"%s" | plus:0}}{% endcapture %}
@@ -36,6 +36,10 @@
         </div>
       {% endif %}
     {% endif %}
-    <img src="http://placehold.it/1170x{{banner_height}}" class="img-fluid">
+
+    <div class="col-sm-12">
+      <img src="http://placehold.it/1170x{{banner_height}}" class="img-fluid
+    Banner-img">
+    </div>
   </div>
 </div>

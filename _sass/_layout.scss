@@ -29,16 +29,10 @@
 }
 
 .Header-nav {
+  float: right;
   margin-top: 13px;
 
   a {
     color: #596283;
-  }
-
-  &.nav-pills .nav-link {
-    padding: {
-      right: 10px;
-      left: 10px;
-    };
   }
 }
