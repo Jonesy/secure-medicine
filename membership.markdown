@@ -2,7 +2,7 @@
 title: Membership
 date: 2016-07-15 21:07:00 Z
 permalink: "/membership/"
-position: 4
+position: 2
 layout: page
 ---
 
