@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="Container">
+      {% include header.html %}
+      {% include banner.html url=page.url %}
+
+      <div class="Content">
+        {% if page.url == '/' %}
+          {% include home.html %}
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+
+</html>

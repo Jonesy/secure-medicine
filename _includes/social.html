@@ -1,0 +1,11 @@
+<div>
+  <ul class="list-inline">
+    {% for account in include.social %}
+      {% for deets in account %}
+        <li class="list-inline-item">
+          {{deets[0]}} {{deets[1]}}
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>

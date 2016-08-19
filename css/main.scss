@@ -1,0 +1,67 @@
+---
+---
+
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "sofia-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$brand-primary: #be1414;
+$body-bg: #fff;
+$text-color:       #464646;
+$brand-secondary-color: #4296b2;
+$dark-blue-color:        #0e5c73;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+// Nav overrides
+$nav-pills-border-radius: 0;
+
+// .btn overrides
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "bootstrap",
+        "base",
+        "layout",
+        "banner",
+        "footer",
+        "home",
+        "callout",
+        "about";

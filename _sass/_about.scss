@@ -1,0 +1,10 @@
+.About {
+}
+
+.About-section {
+  margin-top: 40px;
+
+  .About &:nth-child(even) {
+    background-color: lighten($body-bg, 10);
+  }
+}

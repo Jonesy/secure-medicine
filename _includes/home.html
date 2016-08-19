@@ -1,0 +1,38 @@
+<div class="container-fluid Home-content">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="Callout">
+        <div class="Callout-title">
+          Did you know?
+        </div>
+        <div class="Callout-body Callout-body--image">
+          <img src="http://placehold.it/620x340" class="img-fluid Callout-img">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="Callout">
+        <div class="Callout-title">
+          Popular Publications
+        </div>
+        <div class="Callout-body">
+          {% for publication in site.publications | sample:3 %}
+            <div>
+              {{publication.title}} <a href="{{publication.url}}">Read More</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="Callout">
+        <div class="Callout-title">
+          MedSecTalk
+        </div>
+        <div class="Callout-body">
+          Twitter
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

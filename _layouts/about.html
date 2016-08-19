@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<article class="container-fluid About">
+
+  {% for section in page.sections %}
+    <section class="row About-section">
+      <header class="col-sm-10 col-md-offset-1">
+        <h3>
+          {{section.title}}
+        </h3>
+      </header>
+      <div class="col-md-6 col-md-offset-1">
+        {{section.description | markdownify}}
+      </div>
+      <div class="col-md-4">
+        <img src="http://placehold.it/370x300" alt="" class="img-fluid">
+      </div>
+    </section>
+  {% endfor %}
+
+  <section id="team" class="row About-section">
+    <header class="col-sm-10 col-md-offset-1">
+      <h3>
+        Meet the Team
+      </h3>
+    </header>
+
+    {% for bio in site.team %}
+      <div class="col-sm-3 {% if forloop.first %}col-md-offset-1{% endif %}">
+        <img src="http://placehold.it/230x148" class="img-fluid">
+        <h4>{{bio.title}}</h4>
+        <h6>{{bio.job_title}}</h6>
+        {{bio.content | markdownify}}
+        {% include social.html social=bio.social %}
+      </div>
+    {% endfor %}
+  </section>
+
+  <section id="members" class="row About-section">
+    <header class="col-sm-10 col-md-offset-1">
+      <h3>
+        Meet the Members
+      </h3>
+    </header>
+    {% for member in site.members %}
+      <div class="col-sm-3 {% if forloop.first %}col-md-offset-1{% endif %}">
+        <img src="http://placehold.it/230x148" class="img-fluid">
+        <h4>{{member.title}}</h4>
+        {{member.content | markdownify}}
+        <p><a href="{{member.website}}">{{member.website}}</a></p>
+      </div>
+    {% endfor %}
+  </section>
+</article>
+

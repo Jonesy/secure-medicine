@@ -1,0 +1,25 @@
+.Footer {
+  padding: {
+    top: 60px;
+    bottom: 60px;
+  };
+  text-align: center;
+  color: #fff;
+  background-color: $text-color;
+
+  a {
+    color: rgba(white, 0.5);
+  }
+}
+
+.Footer-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: left;
+}
+
+.Footer-title {
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+}

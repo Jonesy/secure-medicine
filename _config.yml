@@ -1,0 +1,57 @@
+---
+title: Secure Medicine
+timezone: UTC
+collections:
+  events:
+    title: Events
+    output: true
+    values:
+      layout: event
+  members:
+    title: Members
+    output: true
+  posts:
+    title: Posts
+    output: true
+  publications:
+    title: Publications
+    output: true
+  team:
+    title: Team
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    banner_text: Add a banner title
+    layout: page
+- scope:
+    path: ''
+    type: events
+  values:
+    start_date: 2016-09-01 21:45:00.000000000 Z
+    end_date: 2016-09-05 21:45:00.000000000 Z
+    layout: event
+- scope:
+    path: publications
+    type: publications
+  values:
+    layout: event
+gems:
+- bootstrap
+email: info@secure-medicine.org
+description: |
+  A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
+baseurl: 
+url: https://secure-medicine.org
+twitter_username: ARC_MedSec
+github_username: Jonesy
+linkedin_username: https://linkedin.com/
+youtube_channel: https://www.youtube.com/user/michiganengineering
+markdown: kramdown
+kramdown:
+  input: GFM

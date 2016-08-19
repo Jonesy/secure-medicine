@@ -1,0 +1,12 @@
+.Home {}
+
+.Home-content {
+  margin: 24px 0;
+
+  @media (max-width: 544px) {
+    margin: {
+      right: 0;
+      left: 0;
+    }
+  }
+}

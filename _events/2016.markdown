@@ -1,0 +1,54 @@
+---
+title: 'May 15-17, 2016: Archimedes Workshop in Ann Arbor, MI'
+date: 2016-07-21 09:30:00 Z
+start_date: 2016-05-15 00:00:00 Z
+end_date: 2016-05-17 00:00:00 Z
+description:
+- |-
+  ## Schedule
+
+  Sunday, May 15
+
+  6:30 PM - 8:30 PM: Welcome Reception at the Sheraton Hotel sponsored by Synopsys
+
+  Monday, May 16
+
+  8:15 AM - 4:30 PM: Workshop Day 1
+
+  Monday, May 16
+
+  6:00 PM - 10:00 PM: Gala Dinner at Detroit Historical Museum - Streets of Old Detroit Room sponsored by Protiviti
+
+  Tuesday, May 17
+
+  8:15 AM - 5:00 PM: Workshop Day 2
+
+  ** Dress code - business casual for all event activities. **
+- |-
+  ## Travel Information
+
+  **Flight Information**
+  We recommend arriving Sunday, May 15th to attend the welcome reception Sunday evening at 6:30 PM. Detroit Metro Airport (DTW) is the closest airport to Ann Arbor.
+
+  **Lodging Information**
+  Hotel reservations must be made by May 6th, 2016 for a room at Sheraton Hotel in Ann Arbor. Reservations can be made online or by phone:
+
+  **Online:** https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1603302493&key=2DE5E0A2
+  Phone: 1-888-627-7098 or 1-800-368-7764. Reference the “2016 Archimedes” room block.
+
+  **Ground Transportation**
+  Participants are responsible for their own transportation to and from the airport. Daily bus transportation will be provided for all event related activities.
+
+  **Parking**
+  If you plan on driving to/from the event, a parking pass is required, the cost is $10/day. For planning purposes, we ask that you purchase your parking pass at the time of registration. If you did not purchase a parking pass at registration and need a pass for one or both days of the workshop, please email archimedes@umich.edu.
+
+  **Registration Information**
+  The early bird rate will be available until **April 15, 2016**. An email invitation will be sent when registration is open (3/23). Please note that invitations are not transferable. If you would like to nominate a colleague at your organization or another, please send their contact information to archimedes@umich.edu and include a reason why he/she would be a good participant at this collegial event.
+layout: event
+---
+
+The 4th Annual Archimedes Workshop on Medical Device Security will take place May 15–17, 2016 at the University of Michigan in Ann Arbor. This invitation-only event brings together solution-oriented experts in medical device manufacturing and computer security to meet and discuss effective ways to improve information security and the new FDA guidance on cybersecurity.
+
+This year, the agenda includes remarks by health delivery organization CISOs, product security officers from medical device manufacturers, the White House, FDA, another three letter agency, forensics experts, hardware security experts, international partners, and speakers who have chosen to remain anonymous. We will also tour the new MCity vehicle test facility because what could possibly go wrong with a bunch of medical device security experts touring a fleet of connected and automated vehicles?
+
+The event is NOT open to the media, and all discussion will be considered off the record unless a speaker expressly gives permission to share. The primary goals are to: (1) introduce experts to each other to solve common problems, and (2) provide engineers with knowledge and anecdotes that help with internal processes to convince executive management on the ROI of improved medical device security.
