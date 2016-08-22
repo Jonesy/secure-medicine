@@ -35,6 +35,7 @@ defaults:
   values:
     start_date: 2016-09-01 21:45:00.000000000 Z
     end_date: 2016-09-05 21:45:00.000000000 Z
+    location: ''
     layout: event
 - scope:
     path: publications
@@ -46,7 +47,7 @@ gems:
 email: info@secure-medicine.org
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
-baseurl: 
+baseurl:
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
