@@ -6,7 +6,7 @@
 }
 
 .Banner-panel {
-  padding: 20px;
+  padding: 25px;
   position: absolute;
   z-index: 9;
   background-color: rgba(white, 0.5);
@@ -31,4 +31,14 @@
 .Banner-title {
   font-weight: 200;
   text-transform: uppercase;
+}
+
+.Banner-location-text {
+  color: #b3b3b3;
+}
+
+.Banner-cta-button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
