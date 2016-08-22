@@ -1,36 +1,63 @@
 <div class="container-fluid Home-content">
   <div class="row">
-    <div class="col-md-5">
-      <div class="Callout">
-        <div class="Callout-title">
-          Did you know?
-        </div>
-        <div class="Callout-body Callout-body--image">
-          <img src="http://placehold.it/620x340" class="img-fluid Callout-img">
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="Callout">
-        <div class="Callout-title">
-          Popular Publications
-        </div>
-        <div class="Callout-body">
-          {% for publication in site.publications | sample:3 %}
-            <div>
-              {{publication.title}} <a href="{{publication.url}}">Read More</a>
-            </div>
-          {% endfor %}
+    <div class="Callout-table">
+      <div class="col-md-5">
+        <div class="Callout" style="background-color: #d9eaef">
+          <div class="Callout-title">
+            Did you know?
+          </div>
+          <div class="Callout-body Callout-body--image">
+            <img src="http://placehold.it/620x340" class="img-fluid Callout-img">
+          </div>
+          <div class="Callout-body">
+            <h6 class="Callout-subtitle">
+              Archimedes Circular Podcast 0x01
+            </h6>
+            <p>
+            Praesent in porttitor erat. Sed sagittis ipsum a volutpat pellentesque. Cras vulputate sapien vitae nulla volutpat, nec lacinia orci laoreet. Curabitur in nibh id sapien vehicula vehicula id ac lorem. Proin tincidunt justo vitae placerat finibus.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="Callout">
-        <div class="Callout-title">
-          MedSecTalk
+      <div class="col-md-4">
+        <div class="Callout" style="background-color: #ecf4f7">
+          <div class="Callout-title">
+            Popular Publications
+            <a href="/publications" class="Callout-title-link">More</a>
+          </div>
+          <div class="Callout-body">
+            {% for publication in site.publications | sample:3 %}
+              <ul class="list-unstyled">
+                <li>
+                  <a href="{{publication.url}}" class="Callout-publication-item">
+                    <strong class="Callout-subtitle">{{publication.title}}: </strong>
+                    {{publication.subtitle}}
+                  </a>
+                </li>
+              </ul>
+            {% endfor %}
+          </div>
         </div>
-        <div class="Callout-body">
-          Twitter
+      </div>
+      <div class="col-md-3">
+        <div class="Callout" style="background-color: #f5fafb">
+          <div class="Callout-title">
+            MedSecTalk
+            <a href="https://twitter.com/{{site.twitter_username}}"
+              class="ss-icon Callout-title-link">
+              twitter
+            </a>
+          </div>
+          <div class="">
+            <a
+              class="twitter-timeline"
+              href="https://twitter.com/{{site.twitter_username}}"
+              data-tweet-limit="2"
+              data-chrome="transparent noheader nofooter noscrollbar">
+              Tweets by {{site.twitter_username}}
+            </a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
         </div>
       </div>
     </div>
