@@ -3,7 +3,7 @@
     {% if include.url == '/' %}
       {% assign banner_height = 510 %}
       <div class="col-md-6 col-md-offset-6 Banner-panel Banner-panel--events">
-        <h2>Upcoming Event</h2>
+        <h6 class="Banner-subtitle">Upcoming Event</h6>
 
         {% capture now_unix %}{{'now' | date:"%s" | plus:0}}{% endcapture %}
         {% assign all_events = site.events | sort:"start_date" %}
@@ -18,7 +18,7 @@
             {% continue %}
           {% else %}
 
-            <h1 class="Banner-panel-title">{{event.title}}</h1>
+            <h1 class="Banner-title">{{event.title}}</h1>
             <a href="{{event.url}}" class="btn btn-primary">
               Read More
             </a>

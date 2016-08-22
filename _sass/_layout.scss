@@ -14,18 +14,20 @@
 
 .Header {
   padding: {
-    top: 26px;
+    top: 46px;
     bottom: 26px;
   }
 }
 
 .Header-logo {
-  width: 250px;
+  $logo-img: '/images/logo.png';
+  width: 300px;
   height: 0px !important;
-  padding-top: 68px;
+  padding-top: 60px;
   display: inline-block;
   overflow: hidden;
-  background: url('/images/logo.gif') no-repeat;
+  background: url($logo-img) no-repeat;
+  background-size: 300px;
 }
 
 .Header-nav {
@@ -33,6 +35,26 @@
   margin-top: 13px;
 
   a {
-    color: #596283;
+    text-decoration: none;
+    color: lighten($text-color, 50%);
+    transition: color 0.25s ease-in;
+
+    &:hover {
+      color: $text-color;
+    }
   }
 }
+
+.Header-nav-item {
+  margin-left: 20px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  a.active {
+    color: $brand-primary;
+  }
+}
+
+

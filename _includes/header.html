@@ -17,13 +17,13 @@
     </div>
 
     <nav class="col-sm-8 hidden-sm-down">
-      <ul class="nav nav-pills Header-nav pull-right">
+      <ul class="list-inline Header-nav pull-right">
         {% assign pages = site.pages | sort: 'position' %}
         {% for site_page in pages %}
-          <li class="nav-item">
+          <li class="list-inline-item Header-nav-item">
             {% if site_page.title %}
             <a
-              class="nav-link {% if page.url contains site_page.url %}active{% endif %}"
+              class="{% if page.url contains site_page.url %}active{% endif %}"
               href="{{ site_page.url | prepend: site.baseurl }}">
                 {{ site_page.title | upcase }}
               </a>
