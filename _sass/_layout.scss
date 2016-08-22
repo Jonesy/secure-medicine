@@ -1,6 +1,10 @@
 /**
  * Site header
  */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 .Container {
   margin: 0 auto;
   max-width: 1170px;

@@ -1,14 +1,16 @@
+$footer-text: rgba(white, 0.5);
+
 .Footer {
   padding: {
     top: 60px;
     bottom: 60px;
   };
   text-align: center;
-  color: #fff;
+  color: $footer-text;
   background-color: $text-color;
 
   a {
-    color: rgba(white, 0.5);
+    color: $footer-text;
   }
 }
 
@@ -20,6 +22,20 @@
 
 .Footer-title {
   font-size: 18px;
+  font-weight: 600;
   line-height: 32px;
-  text-transform: uppercase;
+  color: #fff;
+
+  &.Footer-title--upcase {
+    text-transform: uppercase;
+  }
+}
+
+.Footer-form {
+  margin-bottom: 1rem;
+}
+
+.Footer-footnote {
+  margin-top: 15px;
+  font-size: 14px;
 }

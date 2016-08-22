@@ -2,7 +2,7 @@
   <div class="container-fluid Footer-container">
     <div class="row">
       <div class="col-sm-2">
-        <h2 class="Footer-title">About</h2>
+        <h2 class="Footer-title Footer-title--upcase">Learn More</h2>
         <ul class="list-unstyled">
           <li><a href="#">Meet our staff</a></li>
           <li><a href="#">Events</a></li>
@@ -10,14 +10,14 @@
         </ul>
       </div>
       <div class="col-sm-2">
-        <h2 class="Footer-title">Resources</h2>
+        <h2 class="Footer-title Footer-title--upcase">Get Involved</h2>
         <ul class="list-unstyled">
           <li><a href="#">Publications</a></li>
           <li><a href="#">Reports</a></li>
         </ul>
       </div>
       <div class="col-sm-2">
-        <h2 class="Footer-title">Connect</h2>
+        <h2 class="Footer-title Footer-title--upcase">Connect</h2>
         <ul class="list-unstyled">
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Newsletter</a></li>
@@ -28,7 +28,22 @@
       </div>
       <div class="col-sm-3 col-sm-offset-3">
         <h2 class="Footer-title">Play it safe. Stay informed.</h2>
-        Newsletter
+        <p>Sign up for monthly news, research, and interviews.</p>
+        <form class="Footer-form">
+          <div class="form-group">
+            <input class="form-control" placeholder="Email Address">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1">
+        <img src="/images/umich-2color-transparentbg.png" width="56">
+      </div>
+      <div class="col-sm-11 Footer-footnote">
+        Archimedes is based at the University of Michigan Computer Science &
+        Engineering (c) {{ 'now' | date: "%Y" }}
       </div>
     </div>
   </div>
