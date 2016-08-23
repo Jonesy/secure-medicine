@@ -8,3 +8,30 @@
     background-color: lighten($body-bg, 10);
   }
 }
+
+.About-title {
+  height: 50px;
+  display: table;
+
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.Team {
+
+}
+
+.Team-header {
+  text-align: center;
+  color: $dark-blue-color;
+  background-color: #ecf6f8;
+}
+
+.Team-title {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}

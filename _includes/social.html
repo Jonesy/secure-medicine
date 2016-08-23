@@ -3,7 +3,9 @@
     {% for account in include.social %}
       {% for deets in account %}
         <li class="list-inline-item">
-          {{deets[0]}} {{deets[1]}}
+          <a href="{{deets[1]}}" class="ss-icon">
+            {{deets[0]}}
+          </a>
         </li>
       {% endfor %}
     {% endfor %}
