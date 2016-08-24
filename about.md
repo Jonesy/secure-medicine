@@ -12,9 +12,9 @@ sections:
   image: 
 - title: Meet the Director
   description: |-
-    ## Professor Kevin Fu
+    #### Professor Kevin Fu
 
-    ### University of Michigan
+    ##### University of Michigan
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida venenatis ipsum in tempus. Vivamus nec convallis sapien. Sed laoreet, urna et lobortis ornare, leo ligula sagittis ligula, id pretium sem erat at velit. Etiam commodo urna quis aliquam luctus. Aliquam laoreet lacus tellus, at rhoncus urna luctus at. Vestibulum euismod dui et turpis vehicula, eu blandit lacus accumsan. Nullam malesuada quam sed sem imperdiet egestas.
 
