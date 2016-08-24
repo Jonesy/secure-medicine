@@ -40,19 +40,29 @@ layout: default
       </h6>
     </header>
 
-    {% for bio in site.team %}
-      <div class="col-sm-4 Team">
-        <div class="Team-header">
-          <img src="http://placehold.it/460x256" class="img-fluid">
-          <div class="Team-title">
-            <div>{{bio.title}}</div>
-            <div>{{bio.job_title}}</div>
+    <div class="col-sm-12">
+      <div class="row">
+        {% for bio in site.team %}
+          <div class="col-md-6 Team">
+            <div class="Team-header">
+              <img src="http://placehold.it/1110x600" class="img-fluid">
+              <div class="Team-title">
+                <div>{{bio.title}}</div>
+                <div>{{bio.job_title}}</div>
+              </div>
+            </div>
+            <div class="Team-content">
+              {{bio.content | markdownify}}
+            </div>
+            {% if bio.social.size > 0 %}
+              <div class="Team-social-links">
+                {% include social.html social=bio.social %}
+              </div>
+            {% endif %}
           </div>
-        </div>
-        {{bio.content | markdownify}}
-        {% include social.html social=bio.social %}
+        {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </section>
 
   <section id="members" class="row About-section">
@@ -61,14 +71,27 @@ layout: default
         Meet the Members
       </h6>
     </header>
-    {% for member in site.members %}
-      <div class="col-sm-3">
-        <img src="http://placehold.it/460x256" class="img-fluid">
-        <h4>{{member.title}}</h4>
-        {{member.content | markdownify}}
-        <p><a href="{{member.website}}">{{member.website}}</a></p>
+    <div class="col-sm-12">
+      <div class="row">
+        {% for member in site.members %}
+          <div class="col-sm-3 Member">
+            <a href="{{member.website}}" class="Member-logo">
+              <img src="http://placehold.it/460x256" class="img-fluid">
+            </a>
+            <h6 class="Member-title">{{member.title}}</h6>
+            <div>
+              {{member.content | markdownify}}
+            </div>
+            <p><a href="{{member.website}}">{{member.website}}</a></p>
+            {% if member.social.size > 0 %}
+              <div class="Member-social-links">
+                {% include social.html social=member.social %}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </section>
 </article>
 

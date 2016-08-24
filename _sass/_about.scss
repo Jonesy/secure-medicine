@@ -20,18 +20,41 @@
 }
 
 .Team {
-
 }
 
 .Team-header {
+  margin-bottom: 20px;
   text-align: center;
-  color: $dark-blue-color;
+  overflow: hidden;
+  color: $text-color;
   background-color: #ecf6f8;
 }
 
 .Team-title {
   padding: 10px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
   line-height: 22px;
+
+  > div:first-child {
+    font-weight: 600;
+  }
+}
+
+.Team-social-links {
+  padding: 20px 0;
+  border-top: 1px solid #a2cad6;
+
+  a {
+    font-size: 24px;
+    color: $text-color;
+  }
+}
+
+.Member-logo {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.Member-title {
+  color: $text-color;
 }
