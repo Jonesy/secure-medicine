@@ -11,7 +11,8 @@ layout: default
           </div>
           <div class="EventsItem-description">
             <div class="EventsItem-dates">
-              {{event.start_date}}
+              {{event.start_date | date_to_string}} - {{event.end_date |
+              date_to_string}}
             </div>
             <h3 class="EventsItem-title">
               <a href="{{event.url}}">
