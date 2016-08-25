@@ -20,9 +20,12 @@
 
             <h1 class="Banner-title">{{event.title}}</h1>
             <h4 class="Banner-location-text">{{event.location}}</h4>
-            <a href="{{event.url}}" class="btn btn-primary Banner-cta-button">
-              Read More
-            </a>
+            {% include
+              button.html
+              label="Read More"
+              href=event.url
+              class="Banner-cta-button"
+            %}
             {% break %}
           {% endif %}
         {% endfor %}

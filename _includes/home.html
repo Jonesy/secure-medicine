@@ -23,7 +23,12 @@
         <div class="Callout" style="background-color: #ecf4f7">
           <div class="Callout-title">
             Popular Publications
-            <a href="/publications" class="Callout-title-link">More</a>
+            {% include button.html
+              href="/publications"
+              label="More"
+              link=true
+              class="Callout-title-link"
+            %}
           </div>
           <div class="Callout-body">
             {% for publication in site.publications | sample:3 %}
@@ -48,7 +53,7 @@
               twitter
             </a>
           </div>
-          <div class="">
+          <div>
             <a
               class="twitter-timeline"
               href="https://twitter.com/{{site.twitter_username}}"

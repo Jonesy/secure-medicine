@@ -1,0 +1,8 @@
+<a
+  href={{include.href}}
+  class="btn {% if include.link %}btn-link{% else %}btn-primary{% endif %} {{include.class}}">
+  {{include.label}}
+  <img
+    src="/images/arrow-{% if include.link %}gray{% else %}white{% endif %}.png"
+    style="margin: 0 0 4px 4px">
+</a>

@@ -23,9 +23,7 @@ layout: default
             <p class="EventsItem-subtitle">
               {{event.subtitle}}
             </p>
-            <a href="#" class="btn btn-primary">
-              Register
-            </a>
+            {% include button.html label="Register!" href="#" %}
           </div>
         </div>
       {% endfor %}
