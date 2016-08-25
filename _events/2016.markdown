@@ -3,6 +3,7 @@ title: 'May 15-17, 2016: Archimedes Workshop in Ann Arbor, MI'
 date: 2016-07-21 09:30:00 Z
 start_date: 2016-05-15 00:00:00 Z
 end_date: 2016-05-17 00:00:00 Z
+subtitle: Learn about medical device cybersecurity from the experts
 description:
 - |-
   ## Schedule
