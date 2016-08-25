@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      {% for event in site.events %}
+        <div class="EventsItem">
+          <div class="EventsItem-img">
+            <img src="http://placehold.it/500x400" class="img-fluid">
+          </div>
+          <div class="EventsItem-description">
+            <div class="EventsItem-dates">
+              {{event.start_date}}
+            </div>
+            <h3 class="EventsItem-title">
+              <a href="{{event.url}}">
+                {{event.title}}
+              </a>
+            </h3>
+            <p class="EventsItem-subtitle">
+              {{event.subtitle}}
+            </p>
+            <a href="#" class="btn btn-primary">
+              Register
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <aside class="col-sm-4">
+      <h6>Why Attend?</h6>
+      {% for quote in page.event_quotes %}
+        <div>
+          <blockquote class="blockquote">
+            <p>
+              {{quote.quote}}
+            </p>
+            <footer class="blockquote-footer">
+              {{quote.source}}
+            </footer>
+          </blockquote>
+        </div>
+      {% endfor %}
+    </aside>
+  </div>
+</div>
