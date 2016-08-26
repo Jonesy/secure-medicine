@@ -18,7 +18,10 @@
             {% continue %}
           {% else %}
 
-            <h1 class="Banner-title">{{event.title}}</h1>
+            <h1 class="Banner-title">
+              {{event.title}}<br/>
+              {% include event-dates.html event=event %}
+            </h1>
             <h4 class="Banner-location-text">{{event.location}}</h4>
             {% include
               button.html

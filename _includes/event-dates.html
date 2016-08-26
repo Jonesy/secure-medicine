@@ -1,0 +1,25 @@
+{% capture start_month %}
+  {{include.event.start_date | date: '%b'}}
+{% endcapture %}
+{% capture end_month %}
+  {{include.event.end_date | date: '%b'}}
+{% endcapture %}
+
+{% if start_month contains end_month %}
+  {% capture month %}
+    {{include.event.start_date | date: '%B'}}
+  {% endcapture %}
+  {% capture date %}
+    {{month}} {{include.event.start_date | date:'%e'}} -
+    {{include.event.end_date | date:'%e, %Y'}}
+  {% endcapture %}
+{% else %}
+  {% capture date %}
+    {{include.event.start_date | date: '%B %e'}} -
+    {{include.event.end_date | date: '%B %e, %Y'}}
+  {% endcapture %}
+{% endif %}
+
+<time class="EventDate">
+  {{date}}
+</time>
