@@ -4,7 +4,7 @@ date: 2016-07-21 09:30:00 Z
 subtitle: Learn about medical device cybersecurity from the experts
 start_date: 2016-05-15 00:00:00 Z
 end_date: 2016-05-17 00:00:00 Z
-description:
+details:
 - |-
   ## Schedule
 
@@ -45,6 +45,12 @@ description:
 
   **Registration Information**
   The early bird rate will be available until **April 15, 2016**. An email invitation will be sent when registration is open (3/23). Please note that invitations are not transferable. If you would like to nominate a colleague at your organization or another, please send their contact information to archimedes@umich.edu and include a reason why he/she would be a good participant at this collegial event.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum nulla
+  lacus, ut malesuada lectus fermentum eleifend. Donec scelerisque sit amet arcu ac
+  eleifend. Donec dignissim sem neque, sit amet ultrices tortor sagittis at. Nunc
+  interdum egestas ante at efficitur. Aenean ac tempor magna. Phasellus tempus ultricies
+  nunc, in iaculis turpis mattis quis. Maecenas quis nulla semper, blandit purus nec,
+  imperdiet nisl. Proin faucibus fringilla pulvinar.
 layout: event
 ---
 
