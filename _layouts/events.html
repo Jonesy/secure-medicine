@@ -8,7 +8,9 @@ layout: default
       {% for event in site.events %}
         <div class="EventsItem">
           <div class="EventsItem-img">
-            <img src="http://placehold.it/500x400" class="img-fluid">
+            <a href={{event.url}}>
+              <img src="http://placehold.it/500x400" class="img-fluid">
+            </a>
           </div>
           <div class="EventsItem-description">
             <div class="EventsItem-dates">

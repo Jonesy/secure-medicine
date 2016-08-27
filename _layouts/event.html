@@ -2,29 +2,32 @@
 layout: default
 ---
 
-<article class="post">
+<article class="container-fluid">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+  <header class="row">
+    <div class="col-sm-3">
+      {% include event-dates.html event=page %}</br>
+      {{page.location}}
+    </div>
+    <div class="col-sm-9">
+      <h3>
+        {{page.description}}
+      </h3>
+    </div>
   </header>
 
-  <div class="post-content">
-    <dl>
-      <dt>Start date</dt>
-      <dd>
-        {{ page.start_date | date: "%b %-d, %Y" }}
-      </dd>
-      <dt>End date</dt>
-      <dd>
-        {{ page.end_date | date: "%b %-d, %Y" }}
-      </dd>
-    </dl>
-
-    {{ content }}
-
-    {% for section in page.description %}
-      {{ section | markdownify }}
-    {% endfor %}
+  <div class="row">
+    <div>
+      <ul class="nav nav-pills">
+        {% for tab in page.details %}
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              {{tab.title}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
 </article>
