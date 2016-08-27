@@ -16,6 +16,9 @@ collections:
   publications:
     title: Publications
     output: true
+  speakers:
+    title: Speakers
+    output: true
   team:
     title: Team
     output: true
