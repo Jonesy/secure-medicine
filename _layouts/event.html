@@ -6,8 +6,17 @@ layout: default
 
   <header class="row">
     <div class="col-sm-3">
-      {% include event-dates.html event=page %}</br>
-      {{page.location}}
+      <div class="Event-date">
+        <p>
+          {% include event-dates.html event=page %}</br>
+          {{page.location}}
+        </p>
+        {% include
+          button.html
+          label="Register Now"
+          class="helo"
+        %}
+      </div>
     </div>
     <div class="col-sm-9">
       <h3>
@@ -17,16 +26,37 @@ layout: default
   </header>
 
   <div class="row">
-    <div>
-      <ul class="nav nav-pills">
-        {% for tab in page.details %}
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              {{tab.title}}
-            </a>
-          </li>
+    <div class="col-sm-12">
+      <div class="Event-tabs">
+        <ul id="event-tabs" class="nav nav-pills" role="tablist">
+          {% for tab in page.details %}
+            <li class="nav-item">
+              <a class="nav-link{% if forloop.first %} active{% endif %}"
+                 data-toggle="tab"
+                 href="#{{tab.title | slugify}}"
+                 role="tab"
+                 aria-controls="{{tab.title | slugify}}">
+                {{tab.title}}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="tab-content col-sm-12">
+      <div id="speakers" class="row">
+        {% for i in ( 1..10 ) %}
+          {% if forloop.index0 < 3 %}
+            <div class="col-sm-4">
+              {% include speaker.html %}
+            </div>
+          {% else %}
+            <div class="col-sm-3">
+              {% include speaker.html %}
+            </div>
+          {% endif %}
         {% endfor %}
-      </ul>
+      </div>
     </div>
   </div>
 

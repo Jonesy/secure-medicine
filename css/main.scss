@@ -17,6 +17,7 @@ $body-bg: #fff;
 $text-color:       #464646;
 $brand-secondary-color: #4296b2;
 $dark-blue-color:        #0e5c73;
+$light-blue-color: #ecf6f8;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -68,4 +69,6 @@ $on-laptop:        800px;
         "home",
         "callout",
         "about",
-        "events";
+        "events",
+        "event",
+        "speakers";
