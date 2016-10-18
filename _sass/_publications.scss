@@ -1,0 +1,27 @@
+.Publications-callout {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: $light-blue-color;
+}
+
+.Publication {
+  margin: 0 0 20px;
+}
+
+.Publication-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: $dark-blue-color;
+}
+
+.Publication-resources-list {
+  li:after {
+    content: ' | ';
+    padding-left: 4px;
+  }
+
+  li:last-child:after {
+    content: '';
+    padding: 0;
+  }
+}
