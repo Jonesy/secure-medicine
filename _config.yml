@@ -49,8 +49,10 @@ defaults:
 gems:
 - bootstrap
 email: info@secure-medicine.org
-description: |
-  A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
+description: 'A cross-disciplinary research initiative on medical device security,
+  privacy, safety, and effectiveness
+
+'
 baseurl: 
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
