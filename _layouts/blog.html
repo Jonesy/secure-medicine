@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        {% for i in (1..6) %}
+          {% if forloop.first %}
+            <div class="col-sm-12">
+              {% include excerpt.html %}
+              <div class="clearfix"></div>
+              <hr class="Excerpt-rule"/>
+            </div>
+          {% else %}
+
+            {% if forloop.index == 2 or forloop.index == 3 %}
+              <div class="col-sm-12 col-lg-6">
+                {% include excerpt.html %}
+              </div>
+            {% else %}
+              <div class="col-sm-12">
+                <hr class="Excerpt-rule"/>
+                {% include excerpt.html hide-image=true %}
+              </div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% include pagination.html %}
+      </div>
+    </div>
+    <aside class="col-md-4">
+      <div class="Callout">
+        <h6>Follow Us</h6>
+        <p><strong>Follow Archimedes</strong> on social media to keep up-to-date with the latest
+        news.</p>
+        <div style="overflow:hidden">
+        {% include social.html %}
+        </div>
+      </div>
+      <div class="Callout">
+        <h6>The Med Sec Monthly Sign Up</h6>
+        {% include newsletter.html %}
+      </div>
+      <div class="Categories">
+        <h6>Categories</h6>
+        <div>
+          {% for i in (1..10) %}
+            <span class="tag tag-pill tag-default">Category {{i}}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="ArticlesSidebar">
+        <h6>Most Viewed</h6>
+
+        {% for i in (1..5) %}
+        <div class="media">
+          <a class="media-left" href="#">
+            <img class="media-object" src="http://placehold.it/60" alt="Generic placeholder image">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading ArticlesSidebar-title">
+              <a href="#">
+                Blog Post Title
+              </a>
+            </h4>
+            Cras sit amet nibh libero, in gravida nulla.
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </aside>
+  </div>
+</div>

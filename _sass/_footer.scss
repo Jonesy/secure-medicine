@@ -20,6 +20,7 @@ $footer-text: rgba(white, 0.5);
   text-align: left;
 }
 
+.Footer .Newsletter-title,
 .Footer-title {
   font-size: 18px;
   font-weight: 600;
@@ -33,6 +34,19 @@ $footer-text: rgba(white, 0.5);
 
 .Footer-form {
   margin-bottom: 1rem;
+}
+
+.Footer-footnote {}
+
+.hs-form {
+  &.stacked .actions {
+    margin-top: 0 !important;
+    padding-top: 0!important;
+  }
+
+  label {
+    color: $footer-text !important;
+  }
 }
 
 .Footer-footnote {

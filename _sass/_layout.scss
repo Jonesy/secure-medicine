@@ -19,3 +19,13 @@ body {
 .Container-content {
 
 }
+
+.Callout {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: $light-blue-color;
+
+  .hs-form.stacked label {
+    color: $text-color !important;
+  }
+}
