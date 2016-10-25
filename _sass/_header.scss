@@ -36,14 +36,44 @@ $link-color: #666666;
   }
 }
 
+.Header-nav-container {
+  position: absolute;
+  z-index: 99;
+  background-color: white;
+  top: 120px;
+  padding-bottom: 20px;
+
+  @media screen and (max-width: 544px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 544px) {
+    position: relative;
+    top: auto;
+    padding-bottom: 0;
+    background-color: transparent;
+  }
+}
 .Header-nav {
-  float: right;
   margin-bottom: 0;
   font-size: 18px;
+
+  @media screen and (min-width: 544px) {
+    float: right;
+  }
 }
 
 .Header-nav-item {
-  margin-left: 20px;
+  display: block;
+
+  a {
+    display: block;
+  }
+
+  @media screen and (min-width: 544px) {
+    margin-left: 20px;
+    display: inline-block;
+  }
 
   &:first-child {
     margin-left: 0;

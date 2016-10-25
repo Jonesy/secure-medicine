@@ -8,14 +8,27 @@
 
 .Banner-panel {
   padding: 25px;
-  position: absolute;
+  position: relative;
   z-index: 9;
   background-color: rgba(white, 0.5);
 
+  @media screen and (min-width: 768px) {
+    & {
+      position: absolute;
+    }
+  }
+
   &.Banner-panel--events {
-    min-height: 200px;
-    top: 20px;
-    right: 36px;
+    right: auto;
+    top: auto;
+
+    @media screen and (min-width: 768px) {
+      & {
+        min-height: 200px;
+        top: 20px;
+        right: 36px;
+      }
+    }
   }
 
   &.Banner-panel--page {
