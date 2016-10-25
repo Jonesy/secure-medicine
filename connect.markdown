@@ -5,6 +5,7 @@ permalink: "/connect/"
 position: 5
 layout: page
 ---
+
 <div class="Page-title">
   <h2>Example title</h2>
 </div>
