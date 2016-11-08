@@ -1,4 +1,5 @@
 $link-color: #666666;
+$breakpoint: 768px;
 
 .Header {
   padding: {
@@ -43,11 +44,11 @@ $link-color: #666666;
   top: 120px;
   padding-bottom: 20px;
 
-  @media screen and (max-width: 544px) {
+  @media screen and (max-width: $breakpoint) {
     width: 100%;
   }
 
-  @media screen and (min-width: 544px) {
+  @media screen and (min-width: $breakpoint) {
     position: relative;
     top: auto;
     padding-bottom: 0;
@@ -58,7 +59,7 @@ $link-color: #666666;
   margin-bottom: 0;
   font-size: 18px;
 
-  @media screen and (min-width: 544px) {
+  @media screen and (min-width: $breakpoint) {
     float: right;
   }
 }
@@ -70,7 +71,7 @@ $link-color: #666666;
     display: block;
   }
 
-  @media screen and (min-width: 544px) {
+  @media screen and (min-width: $breakpoint) {
     margin-left: 20px;
     display: inline-block;
   }

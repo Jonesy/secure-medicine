@@ -43,19 +43,32 @@ layout: default
         </ul>
       </div>
     </div>
-    <div class="tab-content col-sm-12">
-      <div id="speakers" class="row">
-        {% for i in ( 1..10 ) %}
-          {% if forloop.index0 < 3 %}
-            <div class="col-sm-4">
-              {% include speaker.html %}
-            </div>
-          {% else %}
-            <div class="col-sm-3">
-              {% include speaker.html %}
-            </div>
-          {% endif %}
-        {% endfor %}
+    <div class="col-sm-12">
+      <div class="tab-content">
+        <div id="speakers" class="tab-pane active" role="tabpanel">
+          <div class="row">
+            {% for i in ( 1..10 ) %}
+              {% if forloop.index0 < 3 %}
+                <div class="col-sm-4">
+                  {% include speaker.html %}
+                </div>
+              {% else %}
+                <div class="col-sm-3">
+                  {% include speaker.html %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div id="schedule" class="tab-pane" role="tabpanel">
+          {% include schedule.html %}
+        </div>
+        <div id="getting-there" class="tab-pane" role="tabpanel">
+          {% include getting-there.html %}
+        </div>
+        <div id="event-sponsors" class="tab-pane" role="tabpanel">
+          {% include sponsors.html %}
+        </div>
       </div>
     </div>
   </div>

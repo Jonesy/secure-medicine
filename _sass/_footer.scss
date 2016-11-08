@@ -38,17 +38,6 @@ $footer-text: rgba(white, 0.5);
 
 .Footer-footnote {}
 
-.hs-form {
-  &.stacked .actions {
-    margin-top: 0 !important;
-    padding-top: 0!important;
-  }
-
-  label {
-    color: $footer-text !important;
-  }
-}
-
 .Footer-footnote {
   margin-top: 15px;
   font-size: 14px;

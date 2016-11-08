@@ -20,6 +20,10 @@ body {
 
 }
 
+.Content {
+  margin-bottom: 40px;
+}
+
 .Callout {
   padding: 20px;
   margin-bottom: 20px;
@@ -27,5 +31,9 @@ body {
 
   .hs-form.stacked label {
     color: $text-color !important;
+  }
+
+  &.Callout--no-padding {
+    padding: 0;
   }
 }
