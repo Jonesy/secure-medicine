@@ -2,6 +2,7 @@
 title: BioMerieux
 date: 2016-12-21 22:28:00 Z
 website: http://www.biomerieux-usa.com/
+logo_image: "/uploads/BioMerieux.gif"
 social:
 - twitter_username: biomerieux
 - facebook: https://www.facebook.com/biomerieux
