@@ -2,9 +2,10 @@
 title: Boston Scientific
 date: 2016-12-21 22:28:00 Z
 website: https://www.bostonscientific.com
+logo_image: "/uploads/BostonScientific.gif"
 social:
-- facebook: https://www.facebook.com/BostonScientific
-  twitter_username: bostonsci
+- twitter_username: bostonsci
+  facebook: https://www.facebook.com/BostonScientific
   linkedin_username: https://www.linkedin.com/company-beta/1637?pathWildcard=1637
 ---
 
