@@ -2,6 +2,7 @@
 title: Siemens
 date: 2016-12-21 22:37:00 Z
 website: https://www.siemens.com/us/en/home.html
+logo_image: "/uploads/Siemens.gif"
 social:
 - twitter_username: Siemensusa
 - facebook: https://www.facebook.com/siemensusa/
