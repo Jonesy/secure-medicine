@@ -12,7 +12,7 @@ sections:
     Archimedes is an independent, pioneering center that has produced the most highly cited research on cybersecurity of medical devices. We are a multidisciplinary team of medical and computer science experts who focus on research, education, and on advising industry leaders on methods for improving medical device security.
 
     We’re proud to be built on a foundation of personal trust, sound science, and solid engineering. At Archimedes, we offer the ideal conditions for situational and operational awareness of emerging issues pertaining to cybersecurity. Better yet, we teach you how to separate signal from noise.
-  image: 
+  image: "/uploads/01About_inset_image.jpg"
 - title: Meet the Director
   description: "Kevin Fu is credited for establishing the field of medical device
     security beginning with the 2008 [IEEE paper on defibrillator security](https://www.secure-medicine.org/public/publications/icd-study.pdf).
@@ -36,7 +36,7 @@ sections:
     CSAIL. He received his B.S., M.Eng., and Ph.D. from MIT. He also earned a certificate
     in artisanal bread making from the French Culinary Institute. His baguettes are
     amazing."
-  image: 
+  image: "/uploads/04About_MeetTheDirector.jpg"
 layout: about
 ---
 
