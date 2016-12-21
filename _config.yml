@@ -9,7 +9,7 @@ collections:
       layout: event
   members:
     title: Members
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
@@ -42,11 +42,6 @@ defaults:
     location: ''
     layout: event
 - scope:
-    path: members
-    type: members
-    website: ''
-    logo_image: ''
-- scope:
     path: publications
     type: publications
   values:
@@ -58,7 +53,7 @@ description: 'A cross-disciplinary research initiative on medical device securit
   privacy, safety, and effectiveness
 
 '
-baseurl:
+baseurl: 
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
