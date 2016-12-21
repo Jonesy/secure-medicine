@@ -3,8 +3,17 @@ title: About
 permalink: "/about/"
 position: 0
 banner_text: We’re improving medical device security through research and education.
+banner_image: "/uploads/03About_MainImage.jpg"
 sections:
 - title: Who We Are
+  description: |-
+    The Archimedes Center for Medical Device Security was established to help manufacturers and industry experts navigate the operational hazards of cybersecurity implementation and prepare them for future challenges of FDA requirements.
+
+    Archimedes is an independent, pioneering center that has produced the most highly cited research on cybersecurity of medical devices. We are a multidisciplinary team of medical and computer science experts who focus on research, education, and on advising industry leaders on methods for improving medical device security.
+
+    We’re proud to be built on a foundation of personal trust, sound science, and solid engineering. At Archimedes, we offer the ideal conditions for situational and operational awareness of emerging issues pertaining to cybersecurity. Better yet, we teach you how to separate signal from noise.
+  image: 
+- title: Meet the Director
   description: "Kevin Fu is credited for establishing the field of medical device
     security beginning with the 2008 [IEEE paper on defibrillator security](https://www.secure-medicine.org/public/publications/icd-study.pdf).
     Kevin is Chief Scientist of [Virta Labs, Inc](https://www.virtalabs.com/). and
@@ -28,17 +37,31 @@ sections:
     in artisanal bread making from the French Culinary Institute. His baguettes are
     amazing."
   image: 
-- title: Meet the Director
-  description: |-
-    #### Professor Kevin Fu
-
-    ##### University of Michigan
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida venenatis ipsum in tempus. Vivamus nec convallis sapien. Sed laoreet, urna et lobortis ornare, leo ligula sagittis ligula, id pretium sem erat at velit. Etiam commodo urna quis aliquam luctus. Aliquam laoreet lacus tellus, at rhoncus urna luctus at. Vestibulum euismod dui et turpis vehicula, eu blandit lacus accumsan. Nullam malesuada quam sed sem imperdiet egestas.
-
-    Fusce quis justo at lacus finibus convallis. Nulla quis tortor eu dui scelerisque faucibus posuere sed lectus. Donec mattis commodo nisl sed suscipit. Phasellus fermentum posuere tellus sit amet suscipit. Phasellus posuere leo at nisl condimentum, non suscipit tortor elementum. Mauris pharetra arcu ligula, at placerat ipsum vestibulum eu. Donec tellus lorem, aliquam in dapibus sit amet, pharetra in mi. Curabitur dui purus, placerat elementum enim vel, egestas iaculis ligula. Cras volutpat eget ante vel feugiat. Praesent vitae commodo ex, tempus auctor diam. Proin ultrices gravida volutpat. Morbi vel aliquet mauris, vehicula laoreet magna. Aliquam pulvinar sed felis id porta. Suspendisse tincidunt nibh nibh, vel euismod magna luctus nec. Ut viverra sollicitudin ex. Curabitur congue sed justo a faucibus.
+- title: Sarah Turner
+  description: 'Sarah Turner is the Senior Administrative Assistant for Professor
+    Kevin Fu and the Archimedes Center for Medical Device Security. Sarah works from
+    her home in New Orleans, but don''t let the fact that she lives in the Big Easy
+    fool you—she is extremely driven and organized and she loves nothing more than
+    to cross tasks off her Trello list. Sarah earned her BA in Business Administration
+    from Davenport University and is currently working toward an MBA. She has over
+    eight years of experience working in fast-paced environments ranging from managing
+    a tech-driven educational startup that teaches kids how to code to organizing
+    the food assistance programs for a local farmer’s market. Motivated by work that
+    makes a difference, Sarah is proud to be an integral member of the Archimedes
+    team and is available to answer any questions you may have about Archimedes or
+    its membership opportunities. Just email her at archimedes@umich.edu and she’ll
+    tell you what you need to know. '
   image: 
-banner_image: "/uploads/03About_MainImage.jpg"
+- title: Nikki McDonald
+  description: As the Communications Specialist for the Archimedes Center for Medical
+    Device Security, Nikki McDonald works to make sure that you stay informed about
+    the news, research, and events central to improving medical device security. Nikki
+    brings over two decades of experience editing and writing for print and online
+    publications in the high-tech educational publishing industry. She graduated with
+    a Bachelor of Science in Journalism from Ohio University in 1994 and was the recipient
+    of the John R. Wilhelm Foreign Correspondence Internship with the Associated Press
+    in Paris, France. You can reach her at [scribwel@umich.edu](mailto:scribwel@umich.edu).
+  image: 
 layout: about
 ---
 
