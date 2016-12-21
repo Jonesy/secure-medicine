@@ -1,7 +1,7 @@
 ---
 title: Sarah Turner
 date: 2016-08-08 18:57:00 Z
-job_title: Assistant to Professor Kevin Fu
+job_title: Senior Administrative Assistant
 social:
 - linked_in: https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button
 ---
