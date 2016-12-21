@@ -2,6 +2,7 @@
 title: WelchAllyn
 date: 2016-12-21 22:38:00 Z
 website: https://www.welchallyn.com/en.html
+logo_image: "/uploads/WelchAllyn.gif"
 social:
 - twitter_username: WelchAllyn
 - facebook: https://www.facebook.com/welchallyn
