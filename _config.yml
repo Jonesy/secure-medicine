@@ -63,3 +63,6 @@ markdown: kramdown
 kramdown:
   input: GFM
 banner_image: "/uploads/01Home_Main_Image.jpg"
+social:
+- twitter_username: ARC_MedSec
+- youtube_channel: https://www.youtube.com/user/michiganengineering
