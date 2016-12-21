@@ -37,6 +37,10 @@ sections:
     in artisanal bread making from the French Culinary Institute. His baguettes are
     amazing."
   image: "/uploads/04About_MeetTheDirector.jpg"
+  social:
+  - twitter_username: DrKevinFu
+  - linkedin_username: https://www.linkedin.com/in/fubob
+  - youtube_channel: https://www.youtube.com/watch?v=shTj9WVhVyU
 layout: about
 ---
 
