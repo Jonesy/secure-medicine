@@ -2,6 +2,7 @@
 title: Medtronic
 date: 2016-12-21 22:34:00 Z
 website: http://www.medtronic.com/us-en/index.html
+logo_image: "/uploads/Medtronic.gif"
 social:
 - twitter_username: Medtronic
 - facebook: https://www.facebook.com/Medtronic
