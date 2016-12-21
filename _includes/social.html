@@ -1,22 +1,32 @@
 <ul class="list-inline Header-social-links">
-  <li class="list-inline-item">
-    <a href="https://twitter.com/{{site.twitter_username}}" class="ss-icon">
-      twitter
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="mailto:{{site.email}}" class="ss-icon">
-      mail
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="{{site.linkedin_username}}" class="ss-icon">
-      linkedin
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="{{site.youtube_channel}}" class="ss-icon">
-      youtube
-    </a>
-  </li>
+  {% for social in include.social %}
+    {% if social.twitter_username %}
+    <li class="list-inline-item">
+      <a href="https://twitter.com/{{social.twitter_username}}" class="ss-icon">
+        twitter
+      </a>
+    </li>
+    {% endif %}
+    {% if social.email %}
+    <li class="list-inline-item">
+      <a href="mailto:{{social.email}}" class="ss-icon">
+        mail
+      </a>
+    </li>
+    {% endif %}
+    {% if social.linkedin_username %}
+    <li class="list-inline-item">
+      <a href="{{social.linkedin_username}}" class="ss-icon">
+        linkedin
+      </a>
+    </li>
+    {% endif %}
+    {% if social.youtube_channel %}
+    <li class="list-inline-item">
+      <a href="{{social.youtube_channel}}" class="ss-icon">
+        youtube
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
 </ul>

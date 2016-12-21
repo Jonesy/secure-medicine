@@ -45,8 +45,7 @@
     {% endif %}
 
     <div class="col-sm-12">
-      <img src="http://placehold.it/1170x{{banner_height}}" class="img-fluid
-    Banner-img">
+      <img src="{% if page.banner_image %}{{page.banner_image}}{% else %}{{site.banner_image}}{% endif %}" class="img-fluid Banner-img">
     </div>
   </div>
 </div>

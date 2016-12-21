@@ -20,14 +20,17 @@ layout: default
           {{section.description | markdownify}}
         </div>
         <div class="col-md-5">
-          <img src="http://placehold.it/936x600" alt="" class="img-fluid">
+          <img src="{{section.image}}" alt="" class="img-fluid">
         </div>
       {% else %}
         <div class="col-md-5">
-          <img src="http://placehold.it/936x600" alt="" class="img-fluid">
+          <img src="{{section.image}}" alt="" class="img-fluid">
         </div>
         <div class="col-md-7">
           {{section.description | markdownify}}
+          {% if section.social %}
+            {% include social.html social=section.social %}
+          {% endif %}
         </div>
       {% endif %}
     </section>
@@ -45,7 +48,7 @@ layout: default
         {% for bio in site.team %}
           <div class="col-md-6 Team">
             <div class="Team-header">
-              <img src="http://placehold.it/1110x600" class="img-fluid">
+              <img src="{{bio.team_image}}" class="img-fluid">
               <div class="Team-title">
                 <div>{{bio.title}}</div>
                 <div>{{bio.job_title}}</div>
@@ -94,4 +97,3 @@ layout: default
     </div>
   </section>
 </article>
-

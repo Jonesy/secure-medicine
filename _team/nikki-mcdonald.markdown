@@ -3,8 +3,8 @@ title: Nikki McDonald
 date: 2016-08-24 04:09:00 Z
 job_title: Communications Specialist
 social:
-- twitter: https://twitter.com/nikkimc
-  linked_in: https://www.linkedin.com/in/nikkimc
+- twitter_username: nikkimc
+- linkedin_username: https://www.linkedin.com/in/nikkimc
 team_image: "/uploads/06About_Nikki.jpg"
 ---
 
