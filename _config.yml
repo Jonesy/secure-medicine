@@ -62,3 +62,4 @@ youtube_channel: https://www.youtube.com/user/michiganengineering
 markdown: kramdown
 kramdown:
   input: GFM
+banner_image: "/uploads/01Home_Main_Image.jpg"
