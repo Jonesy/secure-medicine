@@ -37,31 +37,6 @@ sections:
     in artisanal bread making from the French Culinary Institute. His baguettes are
     amazing."
   image: 
-- title: Sarah Turner
-  description: 'Sarah Turner is the Senior Administrative Assistant for Professor
-    Kevin Fu and the Archimedes Center for Medical Device Security. Sarah works from
-    her home in New Orleans, but don''t let the fact that she lives in the Big Easy
-    fool you—she is extremely driven and organized and she loves nothing more than
-    to cross tasks off her Trello list. Sarah earned her BA in Business Administration
-    from Davenport University and is currently working toward an MBA. She has over
-    eight years of experience working in fast-paced environments ranging from managing
-    a tech-driven educational startup that teaches kids how to code to organizing
-    the food assistance programs for a local farmer’s market. Motivated by work that
-    makes a difference, Sarah is proud to be an integral member of the Archimedes
-    team and is available to answer any questions you may have about Archimedes or
-    its membership opportunities. Just email her at archimedes@umich.edu and she’ll
-    tell you what you need to know. '
-  image: 
-- title: Nikki McDonald
-  description: As the Communications Specialist for the Archimedes Center for Medical
-    Device Security, Nikki McDonald works to make sure that you stay informed about
-    the news, research, and events central to improving medical device security. Nikki
-    brings over two decades of experience editing and writing for print and online
-    publications in the high-tech educational publishing industry. She graduated with
-    a Bachelor of Science in Journalism from Ohio University in 1994 and was the recipient
-    of the John R. Wilhelm Foreign Correspondence Internship with the Associated Press
-    in Paris, France. You can reach her at [scribwel@umich.edu](mailto:scribwel@umich.edu).
-  image: 
 layout: about
 ---
 
