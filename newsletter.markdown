@@ -1,6 +1,7 @@
 ---
-banner_image: "/images/banner.jpg"
+title: Newsletter
 banner_text: Play it safe. Stay informed.
+banner_image: "/images/banner.jpg"
 subtitle: Sign up for monthly news, research, and interviews.
 layout: page
 ---
