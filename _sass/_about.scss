@@ -50,6 +50,10 @@
   }
 }
 
+.Member {
+  margin-bottom: 20px;
+}
+
 .Member-logo {
   margin-bottom: 20px;
   display: inline-block;
@@ -57,4 +61,11 @@
 
 .Member-title {
   color: $text-color;
+}
+
+.Member-link {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }

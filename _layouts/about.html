@@ -79,19 +79,26 @@ layout: default
         {% for member in site.members %}
           <div class="col-sm-3 Member">
             <a href="{{member.website}}" class="Member-logo">
-              <img src="http://placehold.it/460x256" class="img-fluid">
+              <img src="{{member.logo_image}}" class="img-fluid">
             </a>
             <h6 class="Member-title">{{member.title}}</h6>
             <div>
               {{member.content | markdownify}}
             </div>
-            <p><a href="{{member.website}}">{{member.website}}</a></p>
+            <p>
+              <a href="{{member.website}}" class="Member-link">
+                Visit the {{member.title}} Website
+              </a>
+            </p>
             {% if member.social.size > 0 %}
               <div class="Member-social-links">
                 {% include social.html social=member.social %}
               </div>
             {% endif %}
           </div>
+          {% if forloop.index == 4 %}
+            <div style="clear: both"></div>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
