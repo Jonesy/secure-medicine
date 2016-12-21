@@ -20,6 +20,7 @@ sections:
 
     Fusce quis justo at lacus finibus convallis. Nulla quis tortor eu dui scelerisque faucibus posuere sed lectus. Donec mattis commodo nisl sed suscipit. Phasellus fermentum posuere tellus sit amet suscipit. Phasellus posuere leo at nisl condimentum, non suscipit tortor elementum. Mauris pharetra arcu ligula, at placerat ipsum vestibulum eu. Donec tellus lorem, aliquam in dapibus sit amet, pharetra in mi. Curabitur dui purus, placerat elementum enim vel, egestas iaculis ligula. Cras volutpat eget ante vel feugiat. Praesent vitae commodo ex, tempus auctor diam. Proin ultrices gravida volutpat. Morbi vel aliquet mauris, vehicula laoreet magna. Aliquam pulvinar sed felis id porta. Suspendisse tincidunt nibh nibh, vel euismod magna luctus nec. Ut viverra sollicitudin ex. Curabitur congue sed justo a faucibus.
   image: 
+banner_image: "/uploads/03About_MainImage.jpg"
 layout: about
 ---
 
