@@ -2,6 +2,7 @@
 title: Philips
 date: 2016-12-21 22:36:00 Z
 website: http://www.usa.philips.com/healthcare
+logo_image: "/uploads/Philips.gif"
 social:
 - twitter_username: PhilipsLiveFrom
 - facebook: https://www.facebook.com/Philips
