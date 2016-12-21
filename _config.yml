@@ -52,6 +52,11 @@ defaults:
   values:
     website: ''
     logo_image: ''
+    social:
+      - twitter_username: ''
+      - facebook: ''
+      - youtube_channel: ''
+      - linkedin_username: ''
 gems:
 - bootstrap
 email: info@secure-medicine.org
