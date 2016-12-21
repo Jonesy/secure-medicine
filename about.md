@@ -2,7 +2,7 @@
 title: About
 permalink: "/about/"
 position: 0
-banner_text: We're improving medical device security through research and education.
+banner_text: We’re improving medical device security through research and education.
 sections:
 - title: Who We Are
   description: |-
