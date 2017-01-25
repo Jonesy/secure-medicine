@@ -12,6 +12,18 @@ event_quotes:
     me wonder if this is what it was like planning the first Space Shuttle launch.
   source: Mike Ahmadi, Director of Critical Systems Security, Software Integrity Group
     at Synopsys Inc.
+related_events:
+- name: Enigma 2017
+  url: https://www.usenix.org/conference/enigma2017
+  info: January 30 - February 1, 2017 at the Oakland Marriott City Center, Oakland,
+    CA
+- name: 2017 Design of Medical Devices Conference
+  url: http://www.dmd.umn.edu/
+  info: April 10, 11-13, 2017 at The Commons Hotel & McNamara Alumni Center, Minneapolis,
+    MN
+- name: AAMI 2017 Conference & Expo
+  url: http://www.aami.org/annualconference/
+  info: June 9-12, Austin, TX
 layout: events
 ---
 
