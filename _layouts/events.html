@@ -9,7 +9,7 @@ layout: default
         <div class="EventsItem">
           <div class="EventsItem-img">
             <a href={{event.url}}>
-              <img src="http://placehold.it/500x400" class="img-fluid">
+              <img src="{{event.event_photo}}" class="img-fluid">
             </a>
           </div>
           <div class="EventsItem-description">
@@ -24,7 +24,11 @@ layout: default
             <p class="EventsItem-subtitle">
               {{event.subtitle}}
             </p>
-            {% include button.html label="Register!" href=event.url %}
+            {% if event.is_over %}
+              <button class="btn btn-disabled">This event is over</button>
+            {% else %}
+              {% include button.html label="Register!" href=event.url %}
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -41,6 +45,18 @@ layout: default
               {{quote.source}}
             </footer>
           </blockquote>
+        </div>
+      {% endfor %}
+
+      <h6>Related Events</h6>
+      {% for event in page.related_events %}
+        <div class="RelatedEvents-title">
+          <a href="{{event.url}}">
+            {{event.name}}
+          </a>
+        </div>
+        <div class="RelatedEvents-info">
+          {{event.info}}
         </div>
       {% endfor %}
     </aside>
