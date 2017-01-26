@@ -2,12 +2,15 @@
 layout: default
 ---
 
-<section>
-  <div class="col-sm-12">
-    {{page.content | markdownify }}
-  </div>
-</section>
+<div class="container-fluid Members">
+  {% include sections.html %}
+  <section>
+    <div class="col-sm-12">
+      {{page.content | markdownify }}
+    </div>
+  </section>
 
-<section class="container-fluid Members">
-  {% include members.html %}
-</section>
+  <section>
+    {% include members.html %}
+  </section>
+</div>

@@ -1,0 +1,31 @@
+{% for section in page.sections %}
+  {% capture is_left %}
+    {{ forloop.index0 | modulo: 2 }}
+  {% endcapture %}
+
+  <section class="row About-section">
+    <header class="col-sm-12 About-title">
+      <h6>
+        {{section.title}}
+      </h6>
+    </header>
+    {% if is_left contains '0' %}
+      <div class="col-md-7">
+        {{section.description | markdownify}}
+      </div>
+      <div class="col-md-5">
+        <img src="{{section.image}}" alt="" class="img-fluid">
+      </div>
+    {% else %}
+      <div class="col-md-5">
+        <img src="{{section.image}}" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-7">
+        {{section.description | markdownify}}
+        {% if section.social %}
+          {% include social.html social=section.social %}
+        {% endif %}
+      </div>
+    {% endif %}
+  </section>
+{% endfor %}
