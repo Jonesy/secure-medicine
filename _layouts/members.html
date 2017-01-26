@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
-<div>
-  Members
-</div>
+<article>
+  {% for member in site.members %}
+    <div>
+      {{member.name}}
+    </div>
+  {% endfor %}
+</article>
