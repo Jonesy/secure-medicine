@@ -7,8 +7,8 @@ banner_text: Members are active and visible supporters of our mission to improve
   device security.
 banner_image: "/uploads/banner_membership.jpg"
 sections:
-- title: "University of Michigan College of Engineering \nComputer Science and Engineering
-    \nArchimedes Membership Program "
+- title: "University of Michigan College of Engineering  \nComputer Science and Engineering
+    \    \nArchimedes Membership Program  "
   image: "/uploads/Fu_Congressional_Hearing.jpg"
   description: "The Archimedes Center for Medical Device Security was established
     in 2012 to help manufacturers and industry experts navigate the operational hazards
