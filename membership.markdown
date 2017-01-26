@@ -28,6 +28,6 @@ sections:
 layout: members
 ---
 
-## Meet the Members
+#### Meet the Members
 
 We are extremely selective in whom we invite to become members and we are recognized in the community for maintaining a high standard. All members are acknowledged on the Archimedes website and in our other marketing channels throughout the duration of their membership. 
