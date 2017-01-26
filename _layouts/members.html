@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-<article>
-  {% for member in site.members %}
-    <div>
-      {{member.name}}
-    </div>
-  {% endfor %}
-</article>
+<section>
+  {{page.content | markdownify }}
+</section>
+<section class="container-fluid Members">
+  {% include members.html %}
+</section>
