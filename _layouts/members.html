@@ -3,8 +3,11 @@ layout: default
 ---
 
 <div class="container-fluid Members">
-  {% include sections.html %}
-  <section>
+  <div class="Members-sections">
+    {% include sections.html %}
+  </div>
+
+  <section class="row">
     <div class="col-sm-12">
       {{page.content | markdownify }}
     </div>
