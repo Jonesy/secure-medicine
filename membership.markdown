@@ -7,4 +7,4 @@ banner_text: Membership
 layout: members
 ---
 
-This is the membership page.
+Content
