@@ -9,7 +9,7 @@ banner_image: "/uploads/banner_membership.jpg"
 sections:
 - title: "University of Michigan College of Engineering \nComputer Science and Engineering
     \nArchimedes Membership Program "
-  image: 
+  image: "/uploads/Fu_Congressional_Hearing.jpg"
   description: "The Archimedes Center for Medical Device Security was established
     in 2012 to help manufacturers and industry experts navigate the operational hazards
     of healthcare cybersecurity implementation and prepare them for future challenges
@@ -17,7 +17,7 @@ sections:
     educational resources and exclusive training opportunities along with direct access
     to Archimedes leadership. "
 - title: 'The Archimedes Membership Program Provides: '
-  image: 
+  image: "/uploads/IMG_4887.jpg"
   description: "# A direct link to world leaders in medical device security, engineering,
     and regulatory \n# Access to knowledge on how to use and evaluate security technology
     more effectively \n# Insight into the latest cybersecurity research and the broader
