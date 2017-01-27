@@ -6,10 +6,10 @@ layout: default
   <div class="row">
     <div class="col-md-8">
       <div class="row">
-        {% for i in (1..6) %}
+        {% for post in site.posts %}
           {% if forloop.first %}
             <div class="col-sm-12">
-              {% include excerpt.html %}
+              {% include excerpt.html post=post %}
               <div class="clearfix"></div>
               <hr class="Excerpt-rule"/>
             </div>

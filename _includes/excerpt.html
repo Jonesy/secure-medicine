@@ -3,14 +3,11 @@
     <img src="http://placehold.it/770x400" class="img-fluid Excerpt-image">
   {% endif %}
 
-  <h2><a href="{{ site.posts.first.url }}">Blog post title</a></h2>
-  <small class="text-muted">Posted by <a href="#">Author Name</a></small>
-  <p>
-  <strong>October 21, 2016 – </strong>Adipisicing consequatur id ipsum labore officia Corrupti iure iusto soluta
-    doloribus similique. Molestiae ipsum reprehenderit quasi nostrum adipisci
-    mollitia? Deleniti repudiandae laboriosam deleniti porro quibusdam. Amet et
-    iste corrupti omnis.
-  </p>
+  <h2><a href="{{ include.post.url }}">{{include.post.title}}</a></h2>
+  <small class="text-muted">Posted by <a href="#">Nikki McDonald</a></small>
+  <div>
+    <time class="Excerpt-time">October 21, 2016 – </time> {{include.post.excerpt | markdownify}}
+  </div>
   <footer>
     <div class="pull-xs-right">
       {% include button.html label="Read More" %}
