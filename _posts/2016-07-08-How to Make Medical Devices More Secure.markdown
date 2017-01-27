@@ -5,6 +5,8 @@ leadin_text: 'In this Q&A with former Medtronic Director of Product Security Bil
   Aerts, Aerts discusses the new security challenges arising from the IoT of medical
   devices, how to put together a strong security program, and the current state of
   medical device security (and how we can fix it). '
+photo: "/uploads/1_Blog.jpg"
+author: Nikki McDonald
 layout: post
 ---
 
