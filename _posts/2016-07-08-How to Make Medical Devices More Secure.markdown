@@ -1,9 +1,6 @@
 ---
 title: How to Make Medical Devices More Secure
 date: 2016-07-08 23:18:00 Z
-categories:
-- jekyll
-- update
 leadin_text: 'In this Q&A with former Medtronic Director of Product Security Bill
   Aerts, Aerts discusses the new security challenges arising from the IoT of medical
   devices, how to put together a strong security program, and the current state of
