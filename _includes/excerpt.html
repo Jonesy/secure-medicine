@@ -1,10 +1,10 @@
 <article class="Excerpt">
   {% if include.hide-image != true %}
-    <img src="http://placehold.it/770x400" class="img-fluid Excerpt-image">
+    <img src="{{include.post.photo}}" class="img-fluid Excerpt-image">
   {% endif %}
 
   <h2><a href="{{ include.post.url }}">{{include.post.title}}</a></h2>
-  <small class="text-muted">Posted by <a href="#">Nikki McDonald</a></small>
+  <small class="text-muted">Posted by <strong>{{include.post.author}}</strong></small>
   <div>
     <time class="Excerpt-time">October 21, 2016 – </time> {{include.post.excerpt | markdownify}}
   </div>
@@ -12,6 +12,6 @@
     <div class="pull-xs-right">
       {% include button.html label="Read More" %}
     </div>
-    <small class="text-muted">Posted in <a href="#">General</a></small>
+    <small class="text-muted" style="display: none">Posted in <a href="#">General</a></small>
   </footer>
 </article>
