@@ -9,7 +9,7 @@ layout: default
         <div class="col-sm-12">
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
             {% if include.hide-image != true %}
-              <img src="http://placehold.it/770x400" class="img-fluid Excerpt-image">
+              <img src="{{page.photo}}" class="img-fluid Excerpt-image">
             {% endif %}
             <header class="post-header">
               <div class="Page-title">
@@ -37,4 +37,3 @@ layout: default
     {% include sidebar.html %}
   </div>
 </div>
-

@@ -23,7 +23,7 @@
 }
 
 .Team-header {
-  margin-bottom: 20px;
+  margin: 0 25% 20px;
   text-align: center;
   overflow: hidden;
   color: $text-color;
@@ -38,6 +38,10 @@
   > div:first-child {
     font-weight: 600;
   }
+}
+
+.Team-content {
+  min-height: 360px;
 }
 
 .Team-social-links {

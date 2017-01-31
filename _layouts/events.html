@@ -47,18 +47,6 @@ layout: default
           </blockquote>
         </div>
       {% endfor %}
-
-      <h6>Related Events</h6>
-      {% for event in page.related_events %}
-        <div class="RelatedEvents-title">
-          <a href="{{event.url}}">
-            {{event.name}}
-          </a>
-        </div>
-        <div class="RelatedEvents-info">
-          {{event.info}}
-        </div>
-      {% endfor %}
     </aside>
   </div>
 </div>
