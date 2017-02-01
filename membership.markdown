@@ -5,7 +5,7 @@ permalink: "/membership/"
 position: 2
 banner_text: Members are active and visible supporters of our mission to improve medical
   device security.
-banner_image: "/uploads/banner_membership.jpg"
+banner_image: "/uploads/1Main_Image_Membership.jpg"
 sections:
 - title: 
   image: "/uploads/IMG_4887.jpg"
