@@ -1,8 +1,8 @@
 ---
 title: 5th Annual Archimedes Workshop on Medical Device Security
 date: 2017-01-25 06:05:00 Z
-start_date: 2017-05-05 00:00:00 Z
-end_date: 2017-05-07 00:00:00 Z
+start_date: 2017-05-07 00:00:00 Z
+end_date: 2017-05-09 00:00:00 Z
 event_photo: "/uploads/archimedes.jpg"
 ---
 
