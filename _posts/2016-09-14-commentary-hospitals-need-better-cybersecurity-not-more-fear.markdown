@@ -1,6 +1,6 @@
 ---
 title: 'Commentary: Hospitals need better cybersecurity, not more fear'
-date: 2017-02-02 07:24:00 Z
+date: 2016-09-14 07:24:00 Z
 leadin_text: 'We''ve seen unprecedented attention to medical-device security after
   an unorthodox report was released by short-selling investment research firm Muddy
   Waters Capital and MedSec, which alleged security vulnerabilities in [St. Jude Medical''s
