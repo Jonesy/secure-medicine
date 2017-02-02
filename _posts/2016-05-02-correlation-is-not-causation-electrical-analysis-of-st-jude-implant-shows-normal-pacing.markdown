@@ -20,8 +20,6 @@ Here's an abbreviated technical analysis of some claims by Muddy Waters and St. 
 ![IMG_20160829_081303.jpg](/uploads/IMG_20160829_081303.jpg)
 ![IMG_20160830_105318.jpg](/uploads/IMG_20160830_105318.jpg)
 
-
-
 **Figure 1:** Our experiment shows that a Merlin programmer screenshot from p. 17 of the Muddy Waters report is not supportive evidence of a successful attack. The top photo shows our reproduction of the Merlin programmer screen photo, but without causing changes to the pacing pulses. Our end-to-end oscilloscope measurements (bottom photo) show that pacing pulses continue normally despite the three benign alerts that are expected when not connected to cardiac tissue. 
 
 **Hypothesis:** The Merlin programmer screen photo on page 17 of the Muddy Waters report is not supportive evidence of appearing “to have caused the device to pace at a rapid rate.”
