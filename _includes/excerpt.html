@@ -6,7 +6,7 @@
   <h2><a href="{{ include.post.url }}">{{include.post.title}}</a></h2>
   <small class="text-muted">Posted by <strong>{{include.post.author}}</strong></small>
   <div>
-    <time class="Excerpt-time">October 21, 2016 – </time> {{include.post.excerpt | markdownify}}
+    <time class="Excerpt-time">{{include.post.date | date_to_long_string}} – </time> {{include.post.excerpt | markdownify}}
   </div>
   <footer>
     <div class="pull-xs-right">

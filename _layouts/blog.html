@@ -17,12 +17,12 @@ layout: default
 
             {% if forloop.index == 2 or forloop.index == 3 %}
               <div class="col-sm-12 col-lg-6">
-                {% include excerpt.html %}
+                {% include excerpt.html post=post %}
               </div>
             {% else %}
               <div class="col-sm-12">
                 <hr class="Excerpt-rule"/>
-                {% include excerpt.html hide-image=true %}
+                {% include excerpt.html post=post hide-image=true %}
               </div>
             {% endif %}
           {% endif %}
