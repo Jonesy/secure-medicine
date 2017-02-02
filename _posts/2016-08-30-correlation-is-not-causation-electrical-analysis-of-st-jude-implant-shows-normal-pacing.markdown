@@ -1,7 +1,7 @@
 ---
 title: 'Correlation is Not Causation: Electrical Analysis of St. Jude Implant Shows
   Normal Pacing'
-date: 2016-05-02 07:28:00 Z
+date: 2016-08-30 07:28:00 Z
 leadin_text: Here's an abbreviated technical analysis of some claims by Muddy Waters
   and St. Jude regarding pacemaker/defibrillator security. We will show you why correlation
   is not causation in the sense that a scary-looking screen is not a reliable indicator
