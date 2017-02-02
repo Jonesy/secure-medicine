@@ -34,6 +34,13 @@ defaults:
     layout: page
 - scope:
     path: ''
+    type: posts
+  values:
+    leadin_text: ''
+    photo: ''
+    author: ''
+- scope:
+    path: ''
     type: events
   values:
     subtitle: ''
@@ -64,11 +71,11 @@ description: 'A cross-disciplinary research initiative on medical device securit
   privacy, safety, and effectiveness
 
 '
-baseurl: 
+baseurl:
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
-linkedin_username: https://linkedin.com/
+linkedin_username: https://www.linkedin.com/groups/12031242
 youtube_channel: https://www.youtube.com/user/michiganengineering
 markdown: kramdown
 kramdown:
@@ -77,3 +84,4 @@ banner_image: "/uploads/01Home_Main_Image.jpg"
 social:
 - twitter_username: ARC_MedSec
 - youtube_channel: https://www.youtube.com/user/michiganengineering
+- linkedin_username: https://www.linkedin.com/groups/12031242
