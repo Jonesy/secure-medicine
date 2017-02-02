@@ -27,7 +27,11 @@ layout: default
             {% if event.is_over %}
               <button class="btn btn-disabled">This event is over</button>
             {% else %}
-              {% include button.html label="Register!" href=event.url %}
+              {% if event.website %}
+                {% include button.html label="Register!" href=event.website %}
+              {% else %}
+                {% include button.html label="Register!" href=event.url %}
+              {% endif %}
             {% endif %}
           </div>
         </div>
