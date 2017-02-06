@@ -1,23 +1,28 @@
 <div class="Publication">
   <h2 class="Publication-title">
-    This is a publication title
+    {{include.publication.title}}
   </h2>
-  <p>
-    Adipisicing impedit minima rem ipsum doloremque necessitatibus
-    recusandae Voluptatibus ducimus fugiat laboriosam qui beatae.
-  </p>
+  {{include.publication.content | markdownify}}
   <ul class="list-inline Publication-resources-list">
-    <li class="list-inline-item">
-      <a href="#">PDF</a>
-    </li>
-    <li class="list-inline-item">
-      <a href="#">SLIDES</a>
-    </li>
-    <li class="list-inline-item">
-      <a href="#">WEBPAGE</a>
-    </li>
-    <li class="list-inline-item">
-      <a href="#">VIDEO</a>
-    </li>
+    {% if links.pdf %}
+      <li class="list-inline-item">
+        <a href="{{links.pdf}}">PDF</a>
+      </li>
+    {% endif %}
+    {% if links.slides %}
+      <li class="list-inline-item">
+        <a href="#">SLIDES</a>
+      </li>
+    {% endif %}
+    {% if links.webpage %}
+      <li class="list-inline-item">
+        <a href="#">WEBPAGE</a>
+      </li>
+    {% endif %}
+    {% if links.video %}
+      <li class="list-inline-item">
+        <a href="#">VIDEO</a>
+      </li>
+    {% endif %}
   </ul>
 </div>

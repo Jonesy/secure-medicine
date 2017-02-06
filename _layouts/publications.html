@@ -12,8 +12,8 @@ layout: default
     <div class="col-sm-8">
       <h6>Publications</h6>
 
-      {% for i in (1..10) %}
-        {% include publication.html %}
+      {% for publication in site.publications %}
+        {% include publication.html publication=publication %}
       {% endfor %}
       {% include pagination.html %}
     </div>
