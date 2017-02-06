@@ -54,6 +54,12 @@ defaults:
     type: publications
   values:
     layout: event
+    author: ''
+    links:
+      pdf: ''
+      slides: ''
+      website: ''
+      videos: ''
 - scope:
     path: ''
     type: members
@@ -72,7 +78,7 @@ description: 'A cross-disciplinary research initiative on medical device securit
   privacy, safety, and effectiveness
 
 '
-baseurl: 
+baseurl:
 url: https://secure-medicine.org
 twitter_username: ARC_MedSec
 github_username: Jonesy
