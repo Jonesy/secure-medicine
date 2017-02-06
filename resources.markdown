@@ -3,7 +3,7 @@ title: Resources
 date: 2016-07-15 21:09:00 Z
 permalink: "/resources/"
 position: 3
-banner_text: Publications
+banner_text: Research and Publications
 layout: publications
 ---
 
