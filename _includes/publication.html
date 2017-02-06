@@ -4,24 +4,24 @@
   </h2>
   {{include.publication.content | markdownify}}
   <ul class="list-inline Publication-resources-list">
-    {% if links.pdf %}
+    {% if include.publication.links.pdf %}
       <li class="list-inline-item">
-        <a href="{{links.pdf}}">PDF</a>
+        <a href="{{include.publication.links.pdf}}">PDF</a>
       </li>
     {% endif %}
-    {% if links.slides %}
+    {% if include.publication.links.slides %}
       <li class="list-inline-item">
-        <a href="#">SLIDES</a>
+        <a href="{{include.publication.links.slides}}">SLIDES</a>
       </li>
     {% endif %}
-    {% if links.webpage %}
+    {% if include.publication.links.webpage %}
       <li class="list-inline-item">
-        <a href="#">WEBPAGE</a>
+        <a href="{{include.publication.links.webpage}}">WEBPAGE</a>
       </li>
     {% endif %}
-    {% if links.video %}
+    {% if include.publication.links.video %}
       <li class="list-inline-item">
-        <a href="#">VIDEO</a>
+        <a href="{{include.publication.links.video}}">VIDEO</a>
       </li>
     {% endif %}
   </ul>
