@@ -3,6 +3,7 @@ title: Contact Us
 date: 2016-07-15 21:09:00 Z
 permalink: "/connect/"
 position: 5
+banner_text: How Can We Help You?
 layout: page
 ---
 
