@@ -3,6 +3,7 @@ title: Newsletter
 banner_text: Play it safe. Stay informed.
 banner_image: "/images/banner.jpg"
 subtitle: Sign up for monthly news, research, and interviews.
+is_hidden_from_nav: true
 layout: page
 ---
 
