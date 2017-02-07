@@ -7,17 +7,4 @@ banner_text: How Can We Help You?
 layout: page
 ---
 
-<div class="Page-title">
-  <h2>Example title</h2>
-</div>
-
-Lorem quibusdam autem tenetur itaque nemo animi? Laboriosam nisi iste impedit maxime atque Distinctio eos aspernatur quia voluptas doloribus? Nihil dolor velit tempore quibusdam ducimus! Ullam ab odit incidunt nisi.
-
-Lorem quibusdam autem tenetur itaque nemo animi? Laboriosam nisi iste impedit maxime atque Distinctio eos aspernatur quia voluptas doloribus? Nihil dolor velit tempore quibusdam ducimus! Ullam ab odit incidunt nisi.
-
-###### Subtitle
-Lorem quibusdam autem tenetur itaque nemo animi? Laboriosam nisi iste impedit maxime atque Distinctio eos aspernatur quia voluptas doloribus? Nihil dolor velit tempore quibusdam ducimus! Ullam ab odit incidunt nisi.
-
-Lorem quibusdam autem tenetur itaque nemo animi? Laboriosam nisi iste impedit maxime atque Distinctio eos aspernatur quia voluptas doloribus? Nihil dolor velit tempore quibusdam ducimus! Ullam ab odit incidunt nisi.
-
-
+Please use the form below to send us an email. Or give us a call at XXX-XXX-XXXX. But, before you do either, we encourage you to read our FAQ. 
