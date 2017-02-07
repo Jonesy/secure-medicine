@@ -11,6 +11,7 @@ Our institutional membership program is designed for medical device manufacturer
 
 [Current Members](#)
 
+<hr/>
 
 **What is the value of onsite medical device security training?**
 
@@ -18,11 +19,13 @@ Member organizations value the eligibility for our private, onsite medical devic
 
 [Training Options](#)
 
+<hr/>
 
 **Who is the intended audience for medical device security training?**
 
 Medical device manufacturers, including managers, engineers, and regulatory affairs specialists.
 
+<hr/>
 
 **How do I get in touch with Professor Kevin Fu for an interview?**
 
@@ -31,6 +34,7 @@ The Archimedes Center for Medical Device Security has a number of resources avai
 [View Publications](/resources)  
 [View News](/news)
 
+<hr/>
 
 **Do you offer public security training events?**
 
@@ -38,6 +42,7 @@ We host the annual Medical Device Security 101 Conference in January, which is o
 
 [View Past Event](https://www.medicalsecurity101.org/)
 
+<hr/>
 
 **How does my organization become a sponsor for training events?**
 
