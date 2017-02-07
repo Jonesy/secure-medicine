@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 date: 2017-02-07 07:47:00 Z
+is_hidden_from_nav: true
 ---
 
 Why do institutions join Archimedes?
