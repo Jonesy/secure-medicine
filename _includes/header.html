@@ -26,7 +26,7 @@
         <ul class="list-inline Header-nav">
           {% assign pages = site.pages | sort: 'position' %}
           {% for site_page in pages %}
-            {% if site_page.title != 'Newsletter' %}
+            {% if site_page.is_hidden_from_nav == nil %}
               {% if site_page.title %}
                 <li class="list-inline-item Header-nav-item">
                   <a

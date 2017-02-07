@@ -3,36 +3,5 @@
     {{include.publication.title}}
   </h2>
   {{include.publication.content | markdownify}}
-  <ul class="list-inline Publication-resources-list">
-    {% if include.publication.links.pdf %}
-      <li class="list-inline-item">
-        <a href="{{include.publication.links.pdf}}">PDF</a>
-      </li>
-    {% endif %}
-    {% if include.publication.links.slides %}
-      <li class="list-inline-item">
-        <a href="{{include.publication.links.slides}}">SLIDES</a>
-      </li>
-    {% endif %}
-    {% if include.publication.links.website %}
-      <li class="list-inline-item">
-        <a href="{{include.publication.links.website}}">WEBPAGE</a>
-      </li>
-    {% endif %}
-    {% if include.publication.links.video %}
-      <li class="list-inline-item">
-        <a href="{{include.publication.links.video}}">VIDEO</a>
-      </li>
-    {% endif %}
-    {% if include.publication.links.abstract %}
-      <li class="list-inline-item">
-        <a href="{{include.publication.links.abstract}}">ABSTRACT</a>
-      </li>
-    {% endif %}
-    {% if include.publication.links.workshop %}
-      <li class="list-inline-item">
-        <a href="{{include.publication.links.workshop}}">ABSTRACT</a>
-      </li>
-    {% endif %}
-  </ul>
+  {% include publication-links.html publication=include.publication %}
 </div>

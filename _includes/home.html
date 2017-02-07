@@ -28,20 +28,20 @@
           <div class="Callout-title">
             Popular Publications
             {% include button.html
-              href="/publications"
+              href="/resources"
               label="More"
               link=true
               class="Callout-title-link"
             %}
           </div>
           <div class="Callout-body">
-            {% for publication in site.publications | sample:3 %}
+            {% assign publications = site.publications | sample:3 %}
+            {% for publication in publications %}
               <ul class="list-unstyled">
-                <li>
-                  <a href="{{publication.url}}" class="Callout-publication-item">
-                    <strong class="Callout-subtitle">{{publication.title}}: </strong>
-                    {{publication.subtitle}}
-                  </a>
+                <li class="Callout-publication-item">
+                  <strong class="Callout-subtitle">{{publication.title}}: </strong>
+                  {{publication.content | markdownify}}
+                  {% include publication-links.html publication=publication %}
                 </li>
               </ul>
             {% endfor %}
@@ -61,7 +61,7 @@
             <a
               class="twitter-timeline"
               href="https://twitter.com/{{site.twitter_username}}"
-              data-tweet-limit="1"
+              data-tweet-limit="3"
               data-chrome="transparent noheader nofooter noscrollbar">
               Tweets by {{site.twitter_username}}
             </a>
