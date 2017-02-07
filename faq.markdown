@@ -59,6 +59,7 @@ We invite you to review our sponsorship packet and email us at [archimedes@umich
 
 [View Sponsorship Packet](#)
 
+<hr/>
 
 **How does my organization become a partner?**
 
