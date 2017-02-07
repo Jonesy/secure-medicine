@@ -49,4 +49,4 @@ We invite you to review our sponsorship packet and email us at [archimedes@umich
 CTA Link: View Sponsorship Packet
 
 **How does my organization become a partner? **
-Industrial collaboration is an essential part of maintaining high educational standards and we are extremely selective in whom we invite to participate as a partner. We work with a number of different organizations and universities to cross-promote events, news, and research. Email us at archimedes@umich.edu for more information on becoming a partner. 
+Industrial collaboration is an essential part of maintaining high educational standards and we are extremely selective in whom we invite to participate as a partner. We work with a number of different organizations and universities to cross-promote events, news, and research. Email us at [archimedes@umich.edu](mailto:archimedes@umich.edu) for more information on becoming a partner. 
