@@ -9,7 +9,7 @@ is_hidden_from_nav: true
 
 Our institutional membership program is designed for medical device manufacturers that wish to demonstrate leadership and a commitment to excellence in premarket and postmarket cybersecurity of medical devices. We do not offer memberships to individuals or solution providers. However, other stakeholders may be eligible for event sponsorship.
 
-[Current Members](#)
+**[Current Members](#)**
 
 <hr/>
 
@@ -17,7 +17,7 @@ Our institutional membership program is designed for medical device manufacturer
 
 Member organizations value the eligibility for our private, onsite medical device security training. Pricing varies depending on the type of training your organization desires. Use the link below to view our training options. If you are interested in scheduling an onsite training, please email [archimedes@umich.edu](mailto:archimedes@umich.edu). 
 
-[Training Options](#)
+**[Training Options](#)**
 
 <hr/>
 
@@ -31,8 +31,7 @@ Medical device manufacturers, including managers, engineers, and regulatory affa
 
 The Archimedes Center for Medical Device Security has a number of resources available to the media. We do our best to keep our news page current. Please review the news and publications pages on our website before reaching out for an individual interview. If you email us with an interview request, we ask that you include technical questions ONLY along with your deadline, your contact information, and the name of your publication. We will do our best to process individual requests, but we cannot guarantee a timely response. 
 
-[View Publications](/resources)  
-[View News](/news)
+**[View Publications](/resources) | [View News](/news)**
 
 <hr/>
 
@@ -40,7 +39,7 @@ The Archimedes Center for Medical Device Security has a number of resources avai
 
 We host the annual Medical Device Security 101 Conference in January, which is open to medical device manufacturers, industry regulators, and healthcare providers.  
 
-[View Past Event](https://www.medicalsecurity101.org/)
+**[View Past Event](https://www.medicalsecurity101.org/)**
 
 <hr/>
 
@@ -62,7 +61,7 @@ Attendees from our previous conferences have included:
 
 We invite you to review our sponsorship packet and email us at [archimedes@umich.edu](mailto:archimedes@umich.edu) for more information. 
 
-[View Sponsorship Packet](#)
+**[View Sponsorship Packet](#)**
 
 <hr/>
 
