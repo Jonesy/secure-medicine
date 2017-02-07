@@ -5,7 +5,13 @@
 }
 
 .Publication {
-  margin: 0 0 20px;
+  margin: 20px 0;
+  clear: both;
+  border-bottom: 1px solid $grey-color-light;
+
+  div &:last-of-type {
+    border-bottom: none;
+  }
 }
 
 .Publication-title {

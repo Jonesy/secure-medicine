@@ -21,36 +21,54 @@
     <h6>The Med Sec Monthly Sign Up</h6>
     {% include newsletter.html %}
   </div>
-  <div class="Categories">
-    <h6>Categories</h6>
-    <div>
-      {% for i in (1..10) %}
-        <span class="tag tag-pill tag-default">Category {{i}}</span>
-      {% endfor %}
-    </div>
-  </div>
-  <div class="ArticlesSidebar">
-    <h6>Most Viewed</h6>
 
-    {% for post in site.posts %}
-    <div class="media">
-      <a class="media-left" href="{{post.permalink}}">
-        <img
-          class="img-responsive"
-          src="{% if post.photo == '' %}/images/placeholder.gif{% else %}{{post.photo}}{% endif %}"
-          alt="Photo for {{post.title}}"
-          width="50"
-        >
-      </a>
-      <div class="media-body">
-        <h4 class="media-heading ArticlesSidebar-title">
-          <a href="{{post.permalink}}">
-            {{post.title}}
-          </a>
-        </h4>
-        {{post.excerpt | markdownify | truncatewords: 10}}
+  {% if page.url == '/resources/' %}
+    <div class="Callout">
+      <h6>Trouble Accessing a Publication?</h6>
+      <p>Send <a href="mailto:archimedes@umich.">us an email</a> and let us know which publication you need and when you need it. We’ll do our best to get it for you.</p>
+    </div>
+    <div class="Callout">
+      <h6>Press Resources</h6>
+      <p>For access to press materials, or to request an interview with Professor Fu, please <a href="#">visit our Press page</a>.</p>
+    </div>
+    <div class="Callout">
+      <h6>Got a Question? </h6>
+      <p><a href="#">Check our FAQ</a> for answers to our most commonly asked questions. </p>
+    </div>
+  {% endif %}
+
+  {% if page.url == '/media/' %}
+    <div class="Categories">
+      <h6>Categories</h6>
+      <div>
+        {% for i in (1..10) %}
+          <span class="tag tag-pill tag-default">Category {{i}}</span>
+        {% endfor %}
       </div>
     </div>
-    {% endfor %}
-  </div>
+    <div class="ArticlesSidebar">
+      <h6>Most Viewed</h6>
+
+      {% for post in site.posts %}
+      <div class="media">
+        <a class="media-left" href="{{post.permalink}}">
+          <img
+            class="img-responsive"
+            src="{% if post.photo == '' %}/images/placeholder.gif{% else %}{{post.photo}}{% endif %}"
+            alt="Photo for {{post.title}}"
+            width="50"
+          >
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading ArticlesSidebar-title">
+            <a href="{{post.permalink}}">
+              {{post.title}}
+            </a>
+          </h4>
+          {{post.excerpt | markdownify | truncatewords: 10}}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </aside>

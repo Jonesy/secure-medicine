@@ -17,19 +17,8 @@ layout: default
       {% endfor %}
       {% include pagination.html %}
     </div>
-    <aside class="col-sm-4">
-      <div class="Publications-callout">
-        <h6>Recent Publications</h6>
-        {% for i in (1..2) %}
-          {% include publication.html %}
-        {% endfor %}
-      </div>
-      <div class="Publications-callout">
-        <h6>Most Viewed Publications</h6>
-        {% for i in (1..2) %}
-          {% include publication.html %}
-        {% endfor %}
-      </div>
-    </aside>
+
+    {% include sidebar.html %}
+
   </div>
 </div>
