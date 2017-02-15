@@ -23,7 +23,9 @@
 }
 
 .Team-header {
-  margin: 0 25% 20px;
+  max-width: 175px;
+  margin: 0 20px 20px 0;
+  float: left;
   text-align: center;
   overflow: hidden;
   color: $text-color;
@@ -46,7 +48,6 @@
 
 .Team-social-links {
   padding: 20px 0;
-  border-top: 1px solid #a2cad6;
 
   a {
     font-size: 24px;

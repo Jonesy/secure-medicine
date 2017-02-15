@@ -26,12 +26,10 @@ layout: default
             </div>
             <div class="Team-content">
               {{bio.content | markdownify}}
-            </div>
-            {% if bio.social.size > 0 %}
-              <div class="Team-social-links">
+              {% if bio.social.size > 0 %}
                 {% include social.html social=bio.social %}
-              </div>
-            {% endif %}
+              {% endif %}
+            </div>
           </div>
         {% endfor %}
       </div>
