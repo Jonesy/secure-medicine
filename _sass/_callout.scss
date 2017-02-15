@@ -75,3 +75,13 @@
     text-decoration: none;
   }
 }
+
+.Callout-publication-text {
+  p, ul {
+    display: inline;
+  }
+
+  ul {
+    white-space: normal;
+  }
+}

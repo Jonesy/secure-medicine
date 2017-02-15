@@ -2,6 +2,8 @@
   <h2 class="Publication-title">
     {{include.publication.title}}
   </h2>
-  {{include.publication.content | markdownify}}
-  {% include publication-links.html publication=include.publication %}
+  <div>
+    {{include.publication.content | markdownify}}
+    {% include publication-links.html publication=include.publication %}
+  </div>
 </div>

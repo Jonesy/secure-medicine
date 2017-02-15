@@ -40,8 +40,10 @@
               <ul class="list-unstyled">
                 <li class="Callout-publication-item">
                   <strong class="Callout-subtitle">{{publication.title}}: </strong>
-                  {{publication.content | markdownify}}
-                  {% include publication-links.html publication=publication %}
+                  <div class="Callout-publication-text">
+                    {{publication.content | markdownify}}
+                    {% include publication-links.html publication=publication %}
+                  </div>
                 </li>
               </ul>
             {% endfor %}
@@ -61,7 +63,7 @@
             <a
               class="twitter-timeline"
               href="https://twitter.com/{{site.twitter_username}}"
-              data-tweet-limit="3"
+              data-tweet-limit="2"
               data-chrome="transparent noheader nofooter noscrollbar">
               Tweets by {{site.twitter_username}}
             </a>
