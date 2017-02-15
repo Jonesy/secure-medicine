@@ -3,6 +3,7 @@ title: Publications
 date: 2016-07-15 21:09:00 Z
 permalink: "/publications/"
 position: 3
+banner_image: "/uploads/Publications_Main_Image.jpg"
 banner_text: Research and Publications
 layout: publications
 ---

@@ -6,7 +6,8 @@ layout: default
   <div class="row">
     <div class="col-md-8">
       <div class="row">
-        {% for post in site.posts %}
+        {% assign posts = site.news | sort: 'date' | reverse %}
+        {% for post in posts %}
           {% if forloop.first %}
             <div class="col-sm-12">
               {% include excerpt.html post=post %}

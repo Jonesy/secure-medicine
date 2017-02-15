@@ -6,7 +6,9 @@
   <body>
     <div class="Container">
       {% include header.html %}
-      {% include banner.html url=page.url %}
+      {% unless page.url contains 'news' %}
+        {% include banner.html url=page.url %}
+      {% endunless %}
 
       <div class="Content">
         {% if page.url == '/' %}
