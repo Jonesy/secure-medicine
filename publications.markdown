@@ -1,7 +1,7 @@
 ---
 title: Publications
 date: 2016-07-15 21:09:00 Z
-permalink: "/resources/"
+permalink: "/publications/"
 position: 3
 banner_text: Research and Publications
 layout: publications
