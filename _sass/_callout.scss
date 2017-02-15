@@ -39,7 +39,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  color: $brand-primary;
+  color: $grey-color-dark;
 }
 
 .Callout-title-link {
@@ -73,10 +73,5 @@
 
   &:hover {
     text-decoration: none;
-    color: $brand-primary;
-
-    > * {
-      color: $brand-primary;
-    }
   }
 }

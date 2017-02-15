@@ -12,10 +12,10 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$brand-primary: #be1414;
+$brand-primary: #137b9b;
 $body-bg: #fff;
 $text-color:       #464646;
-$brand-secondary-color: #4296b2;
+$brand-secondary-color: #be1414;
 $dark-blue-color:        #0e5c73;
 $light-blue-color: #ecf6f8;
 
@@ -30,6 +30,7 @@ $content-width:    800px;
 $nav-pills-border-radius: 0;
 
 // .btn overrides
+$btn-primary-bg: $brand-secondary-color;
 $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
 $btn-border-radius-sm: 0;
