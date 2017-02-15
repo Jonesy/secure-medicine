@@ -10,6 +10,9 @@ collections:
   members:
     title: Members
     output: false
+  news:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
