@@ -6,6 +6,7 @@ start_date: 2017-04-10 00:00:00 Z
 end_date: 2017-04-13 00:00:00 Z
 location: The Commons Hotel & McNamara Alumni Center, Minneapolis, MN
 website: http://www.dmd.umn.edu/
+is_related_conference: true
 ---
 
 
