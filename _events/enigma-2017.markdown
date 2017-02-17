@@ -6,5 +6,6 @@ start_date: 2017-01-30 00:00:00 Z
 end_date: 2017-02-01 00:00:00 Z
 location: Oakland Marriott City Center, Oakland, CA
 website: https://www.usenix.org/conference/enigma2017
+is_related_conference: true
 ---
 
