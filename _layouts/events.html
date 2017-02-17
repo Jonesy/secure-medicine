@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign sm_events = site.events | sort: 'start_date' | where: 'is_related_conference', false %}
 {% assign related_events = site.events | sort: 'start_date' | where: 'is_related_conference', true %}
 <div class="container-fluid">
