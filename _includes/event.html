@@ -1,0 +1,25 @@
+<div class="EventsItem">
+  <div class="EventsItem-img">
+    <a href={{event.url}}>
+      <img src="{{event.event_photo}}" class="img-fluid">
+    </a>
+  </div>
+  <div class="EventsItem-description">
+    <div class="EventsItem-dates">
+      {% include event-dates.html event=event %}
+    </div>
+    <h3 class="EventsItem-title">
+      <a href="{{event.url}}">
+        {{event.title}}
+      </a>
+    </h3>
+    <p class="EventsItem-subtitle">
+      {{event.subtitle}}
+    </p>
+    {% if event.website %}
+      {% include button.html label="Visit Website" href=event.website %}
+    {% else %}
+      {% include button.html label="Learn More" href=event.url %}
+    {% endif %}
+  </div>
+</div>

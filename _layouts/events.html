@@ -1,41 +1,19 @@
 ---
 layout: default
 ---
-
+{% assign sm_events = site.events | sort: 'start_date' | where: 'is_related_conference', false %}
+{% assign related_events = site.events | sort: 'start_date' | where: 'is_related_conference', true %}
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-8">
-      {% assign events = site.events | sort: 'start_date' %}
-      {% for event in events %}
-        <div class="EventsItem">
-          <div class="EventsItem-img">
-            <a href={{event.url}}>
-              <img src="{{event.event_photo}}" class="img-fluid">
-            </a>
-          </div>
-          <div class="EventsItem-description">
-            <div class="EventsItem-dates">
-              {% include event-dates.html event=event %}
-            </div>
-            <h3 class="EventsItem-title">
-              <a href="{{event.url}}">
-                {{event.title}}
-              </a>
-            </h3>
-            <p class="EventsItem-subtitle">
-              {{event.subtitle}}
-            </p>
-            {% if event.is_over %}
-              <button class="btn btn-disabled">This event is over</button>
-            {% else %}
-              {% if event.website %}
-                {% include button.html label="Register!" href=event.website %}
-              {% else %}
-                {% include button.html label="Register!" href=event.url %}
-              {% endif %}
-            {% endif %}
-          </div>
-        </div>
+      {% for event in sm_events %}
+        {% include event.html event=event %}
+      {% endfor %}
+      <div class="Events-divider">
+        <h6>Related Conferences</h6>
+      </div>
+      {% for event in related_events %}
+        {% include event.html event=event %}
       {% endfor %}
     </div>
     <aside class="col-md-4">
@@ -44,7 +22,7 @@ layout: default
         <div>
           <blockquote class="blockquote">
             <p>
-              {{quote.quote}}
+              &quot;{{quote.quote}}&quot;
             </p>
             <footer class="blockquote-footer">
               {{quote.source}}

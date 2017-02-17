@@ -17,10 +17,10 @@
         <img src="{{section.image}}" alt="" class="img-fluid">
       </div>
     {% else %}
-      <div class="col-md-5">
+      <div class="col-md-4">
         <img src="{{section.image}}" alt="" class="img-fluid">
       </div>
-      <div class="col-md-7">
+      <div class="col-md-8">
         {{section.description | markdownify}}
         {% if section.social %}
           {% include social.html social=section.social %}

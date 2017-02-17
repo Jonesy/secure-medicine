@@ -1,6 +1,10 @@
 <article class="Excerpt">
   {% if include.hide-image != true %}
-    <img src="{{include.post.photo}}" class="img-fluid Excerpt-image">
+   {% if include.post.photo == '' pf %}
+      <img src="/images/news-placeholder.gif" class="img-fluid Excerpt-image">
+    {% else %}
+      <img src="{{include.post.photo}}" class="img-fluid Excerpt-image">
+    {% endif %}
   {% endif %}
 
   <h2><a href="{{ include.post.url }}">{{include.post.title}}</a></h2>
