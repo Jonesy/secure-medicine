@@ -24,6 +24,7 @@ related_events:
 - name: AAMI 2017 Conference & Expo
   url: http://www.aami.org/annualconference/
   info: June 9-12, Austin, TX
+banner_image: "/uploads/EventsBanner.jpg"
 layout: events
 ---
 
