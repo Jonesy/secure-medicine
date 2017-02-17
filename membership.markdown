@@ -18,9 +18,9 @@ sections:
     training opportunities along with direct access to Archimedes leadership. "
 - title: 
   image: "/uploads/Fu_Congressional_Hearing.jpg"
-  description: "###### The Archimedes Membership Program Provides: \n\nA direct link
-    to world leaders in medical device security, engineering, and regulatory\n \n*
-    Access to knowledge on how to use and evaluate security technology more effectively
+  description: "###### The Archimedes Membership Program Provides: \n\n* A direct
+    link to world leaders in medical device security, engineering, and regulatory
+    \n* Access to knowledge on how to use and evaluate security technology more effectively
     \n* Insight into the latest cybersecurity research and the broader security community
     \n* Access to workshops that focus on technical problem-solving for medical devices\n*
     A network of colleagues who face the same managerial and technical challenges
