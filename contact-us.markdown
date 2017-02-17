@@ -4,6 +4,7 @@ date: 2016-07-15 21:09:00 Z
 permalink: "/connect/"
 position: 5
 banner_text: How Can We Help You?
+banner_image: "/uploads/ContactUsBanner.jpg"
 layout: page
 ---
 
