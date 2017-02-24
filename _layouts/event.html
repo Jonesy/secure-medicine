@@ -20,7 +20,7 @@ layout: default
     </div>
     <div class="col-sm-9">
       <h3>
-        {{page.description}}
+        {{page.content | markdownify}}
       </h3>
     </div>
   </header>
@@ -29,36 +29,58 @@ layout: default
     <div class="col-sm-12">
       <div class="Event-tabs">
         <ul id="event-tabs" class="nav nav-pills" role="tablist">
-          {% for tab in page.details %}
-            <li class="nav-item">
-              <a class="nav-link{% if forloop.first %} active{% endif %}"
-                 data-toggle="tab"
-                 href="#{{tab.title | slugify}}"
-                 role="tab"
-                 aria-controls="{{tab.title | slugify}}">
-                {{tab.title}}
-              </a>
-            </li>
-          {% endfor %}
+          <li class="nav-item">
+            <a class="nav-link active"
+                data-toggle="tab"
+                href="#speakers"
+                role="tab"
+                aria-controls="#speakers">
+              Speakers & Experts
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                data-toggle="tab"
+                href="#schedule"
+                role="tab"
+                aria-controls="#schedule">
+              Schedule
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                data-toggle="tab"
+                href="#getting-there"
+                role="tab"
+                aria-controls="#getting-there">
+              Getting There
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                data-toggle="tab"
+                href="#speaker-resources"
+                role="tab"
+                aria-controls="#speaker-resources">
+              Speaker Resources
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+                data-toggle="tab"
+                href="#sponsors"
+                role="tab"
+                aria-controls="#sponsors">
+              Sponsors
+            </a>
+          </li>
         </ul>
       </div>
     </div>
     <div class="col-sm-12">
       <div class="tab-content">
         <div id="speakers" class="tab-pane active" role="tabpanel">
-          <div class="row">
-            {% for i in ( 1..10 ) %}
-              {% if forloop.index0 < 3 %}
-                <div class="col-sm-4">
-                  {% include speaker.html %}
-                </div>
-              {% else %}
-                <div class="col-sm-3">
-                  {% include speaker.html %}
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
+          {% include speakers.html %}
         </div>
         <div id="schedule" class="tab-pane" role="tabpanel">
           {% include schedule.html %}
@@ -66,7 +88,10 @@ layout: default
         <div id="getting-there" class="tab-pane" role="tabpanel">
           {% include getting-there.html %}
         </div>
-        <div id="event-sponsors" class="tab-pane" role="tabpanel">
+        <div id="speaker-resources" class="tab-pane" role="tabpanel">
+          {% include resources.html %}
+        </div>
+        <div id="sponsors" class="tab-pane" role="tabpanel">
           {% include sponsors.html %}
         </div>
       </div>

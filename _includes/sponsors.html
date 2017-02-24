@@ -1,7 +1,28 @@
-<div class="row">
-  {% for i in (1...8) %}
-  <div class="col-sm-3 Sponsor">
-    <img src="http://placehold.it/500" title="Sponsor Logo" class="img-fluid">
+<div class="col-sm-12">
+  <div class="row">
+    {% for member in site.members %}
+      <div class="col-sm-3 Member">
+        <a href="{{member.website}}" class="Member-logo">
+          <img src="{{member.logo_image}}" class="img-fluid">
+        </a>
+        <h6 class="Member-title">{{member.title}}</h6>
+        <div class="Member-content">
+          {{member.content | markdownify}}
+        </div>
+        <p>
+          <a href="{{member.website}}" class="Member-link">
+            Visit the {{member.title}} Website
+          </a>
+        </p>
+        {% if member.social.size > 0 %}
+          <div class="Member-social-links">
+            {% include social.html social=member.social %}
+          </div>
+        {% endif %}
+      </div>
+      {% if forloop.index == 4 %}
+        <div style="clear: both"></div>
+      {% endif %}
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>

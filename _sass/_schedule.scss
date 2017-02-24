@@ -1,0 +1,45 @@
+.Day {
+  color: #137b9b;
+
+  hr {
+    border-top: 1px solid #ccc;
+  }
+}
+
+.Day-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #137b9b;
+}
+
+.Day-date {
+  font-size: 24px;
+  color: #137b9b;
+}
+
+.Schedule-block {
+  &.Schedule-block--break {
+    color: $brand-secondary-color;
+    position: relative;
+  }
+
+}
+
+.Schedule-presentation-title {
+  font-size: 18px;
+  font-weight: bold;
+
+  &.Schedule-presentation-title--break {
+    margin-bottom: 0;
+  }
+}
+
+.Schedule-divider {
+  border-top: 3px solid #ccc;
+}
+
+.Presentation-time {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
